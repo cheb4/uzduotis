@@ -3,9 +3,7 @@
 echo "cia randasi Main.php <hr> ";
 include ROOT . '/db/Db.php';
 
-/**
- * 
- */
+
 class Main
 {
     
