@@ -16,8 +16,8 @@ class MainController
 
     public function actionInsert()
     {
-        // echo "<br><h1>Ačiu</h1> <br>";
-        // require_once(ROOT . '/views/main/sucsess.php');
+        echo "<br><h1>Ačiu</h1> <br>";
+        require_once(ROOT . '/views/main/sucsess.php');
 
         if( isset($_POST["name"]) || isset($_POST["surname"]) ) {
         $name = $_POST["name"];
