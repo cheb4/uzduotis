@@ -1,8 +1,6 @@
 <?php
 
-echo "<hr>cia bus details<hr>";
 
-echo $oneItem['name'];
 
 echo "id ".$oneItem['id']."<br>";
 echo "vardas ".$oneItem['name']."<br>";
