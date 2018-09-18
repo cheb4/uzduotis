@@ -8,6 +8,7 @@
     <link rel="stylesheet"  href="./main.css">
 </head>
 <body>
+    
     <div id="main-container">
         <div id="header">
             <ul class="nav">
@@ -34,7 +35,7 @@
             </div>
             <div class="form-field">
                 <label>Telefonas</label>
-                <input  type="text" name="phone" >
+                <input  type="text" name="phoneNumber" >
             </div>
             <div class="form-field">
                 <label>Komentaras</label>
