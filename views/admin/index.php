@@ -32,14 +32,10 @@ echo "<tr>";
 ?>
 </table>
 <?
-// foreach ($itemList as $result) {
-//     echo "opa "." ".$result['id']." " .$result['name']."<br>";
-// }
+
 ?>
 <?
-// foreach ($pageNum as $value) {
-//     echo "$value";
-// }
+
 for ($page=1;$page<=$pageNum;$page++) {
     echo '<a href="index.php?page=' . $page . '">' . $page . '</a> ';
 }
