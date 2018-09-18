@@ -56,7 +56,7 @@ foreach ($route as $uriPattern => $path) {
 }
 
 
-$clearDbUrl = parse_url(get_env("CLEARDB_DATABASE_URL"));
+$clearDbUrl = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $clearDbHost = $clearDbUrl['host'];
 echo"<hr>";
 echo "$clearDbHost";
