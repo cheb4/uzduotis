@@ -8,7 +8,6 @@
     <link rel="stylesheet"  href="./main.css">
 </head>
 <body>
-<!--change when uploading to server  -->
     <div id="main-container">
         <div id="header">
             <ul class="nav">

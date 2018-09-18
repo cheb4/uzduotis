@@ -41,34 +41,20 @@
     <td><?php echo $oneItem['city'];?></td>
   </tr>
   <tr>
-    <th>uzsakymo skaicius</th>
-    <td><?php echo $oneItem['id'];?></td>
+    <th>uzsakymo dydis</th>
+    <td><?php echo $oneItem['orderNum'];?></td>
   </tr>
     <tr>
     <th>telefono numeris</th>
-    <td><?php echo $oneItem['id'];?></td>
+    <td><?php echo $oneItem['phone'];?></td>
   </tr>
     <tr>
     <th>komentaras</th>
-    <td><?php echo $oneItem['id'];?></td>
+    <td><?php echo $oneItem['comment'];?></td>
   </tr>
   
 </table>
 
-
-<?php
-
-
-
-echo "id ".$oneItem['id']."<br>";
-echo "vardas ".$oneItem['name']."<br>";
-echo "pavarde ".$oneItem['surname']."<br>";
-echo "Miestas ".$oneItem['city']."<br>";
-echo "uzsakymo skaicius".$oneItem['orderNum']."<br>";
-echo "telefono numeris".$oneItem['phone']."<br>";
-echo "<br> komentaras".$oneItem['comment']."<br>";
-
-?>
 </div>
 </body>
 </html>
