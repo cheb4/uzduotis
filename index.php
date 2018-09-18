@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 echo "opa";
 echo __DIR__;
 
-define('ROOT', 'app');
+define('ROOT', __DIR__);
 // echo ROOT;
 
 // echo "opa";
