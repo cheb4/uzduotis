@@ -4,13 +4,6 @@ echo "cia bus main.php index  puslapis";
 
 echo "<hr>didelis puslapis<hr>";
 
-// $_POST["name"]="";
-// $_POST["surname"]="";
-// $_POST["town"]="";
-// $_POST["orderSize"]="";
-// $_POST["phoneNumber"]="";
-// $_POST["comment"]="";
-
 ?>
 <!DOCTYPE html>
 <html>
