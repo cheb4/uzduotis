@@ -1,6 +1,5 @@
 <?php
 
-echo "cia randasi Admin.php <hr>";
 include ROOT . '/db/Db.php';
 
 
