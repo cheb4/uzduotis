@@ -19,7 +19,7 @@ echo "<hr>didelis puslapis<hr>";
 </head>
 <body>
     <!--change when uploading to server  -->
-<form action = "/tutorial/nfq/projektas/insert" method = "POST">
+<form action = "/insert" method = "POST">
  Vardas
  <br><input  type="text" name="name" ><br>
  Pavarde
