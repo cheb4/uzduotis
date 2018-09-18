@@ -11,7 +11,7 @@ return array(
     'admin/city_asc' => 'admin/city_asc',
     'admin/city_desc' => 'admin/city_desc',
     'admin-([0-9]+)' => 'admin/getDetails',
-    // 'admin' => 'admin/display',
+    'admin' => 'admin/display',
     'insert' => 'main/insert',
     '' => 'main/display',
 );
