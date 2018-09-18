@@ -9,18 +9,18 @@
 <table class="tg">
   <tr>
     <!-- pries keliant i serveri reikia pakeisti is localhost i serverio absoliucias nuoruodas -->
-    <th class="tg-0lax">id <a href="http://localhost/tutorial/nfq/projektas/admin/id_asc/index.php?page=1">↑</a> <a href="http://localhost/tutorial/nfq/projektas/admin/id_desc/index.php?page=1">↓</a> </th>
-    <th class="tg-0lax">vardas <a href="http://localhost/tutorial/nfq/projektas/admin/name_asc/index.php?page=1">↑</a> <a href="http://localhost/tutorial/nfq/projektas/admin/name_desc/index.php?page=1">↓</a>  </th>
-    <th class="tg-0lax">pavarde <a href="http://localhost/tutorial/nfq/projektas/admin/surname_asc/index.php?page=1">↑</a> <a href="http://localhost/tutorial/nfq/projektas/admin/surname_desc/index.php?page=1">↓</a>  </th>
-    <th class="tg-0lax">miestas <a href="http://localhost/tutorial/nfq/projektas/admin/city_asc/index.php?page=1">↑</a> <a href="http://localhost/tutorial/nfq/projektas/admin/city_desc/index.php?page=1">↓</a>  </th>
-    <th class="tg-0lax">užsakymo dydis <a href="http://localhost/tutorial/nfq/projektas/admin/orderNum_asc/index.php?page=1">↑</a> <a href="http://localhost/tutorial/nfq/projektas/admin/orderNum_desc/index.php?page=1">↓</a>  </th>
+    <th class="tg-0lax">id <a href="https://desolate-reaches-61237.herokuapp.com/admin/id_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/id_desc/index.php?page=1">↓</a> </th>
+    <th class="tg-0lax">vardas <a href="https://desolate-reaches-61237.herokuapp.com/admin/name_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/name_desc/index.php?page=1">↓</a>  </th>
+    <th class="tg-0lax">pavarde <a href="https://desolate-reaches-61237.herokuapp.com/admin/surname_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/surname_desc/index.php?page=1">↓</a>  </th>
+    <th class="tg-0lax">miestas <a href="https://desolate-reaches-61237.herokuapp.com/admin/city_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/city_desc/index.php?page=1">↓</a>  </th>
+    <th class="tg-0lax">užsakymo dydis <a href="https://desolate-reaches-61237.herokuapp.com/admin/orderNum_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/orderNum_desc/index.php?page=1">↓</a>  </th>
     <th class="tg-0lax">telefono numeris</th>
     <th class="tg-baqh">komentaras</th>
   </tr>
   <?php foreach ($itemList as $item){
 
 echo "<tr>";
-    echo "<td class='tg-0lax'>".'<a href="http://localhost/tutorial/nfq/projektas/admin-' .$item['id'].'">'.$item['id'] ." </td>";
+    echo "<td class='tg-0lax'>".'<a href="https://desolate-reaches-61237.herokuapp.com/admin-' .$item['id'].'">'.$item['id'] ." </td>";
     echo "<td class='tg-0lax'>". $item['name']." </td>";
     echo "<td class='tg-0lax'>". $item['surname']." </td>";
     echo "<td class='tg-0lax'>". $item['city']." </td>";
