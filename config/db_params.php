@@ -1,10 +1,11 @@
 <?php
+$clearDbUrl = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 return array(
-            'host' => 'us-cdbr-iron-east-01.cleardb.net ',
-            'dbname' => 'heroku_7fe484b29314a31',
-            'user' => 'b32e344c938404',
-            'password' => '61db3fa4',
+            'host' => $clearDbUrl['host'],
+            'dbname' => substr($clearDbUrl['path'],1),
+            'user' => $clearDbUrl['user'],
+            'password' => $clearDbUrl['pass'],
 );
 
 // $clearDbUrl = parse_url(getenv("CLEARDB_DATABASE_URL"));
