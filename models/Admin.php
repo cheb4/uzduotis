@@ -11,20 +11,10 @@ class Admin
 {
     public static function getAllData()
     {
-        // $database = new Db();
-        // echo "prisijunge prie db";
         $db = Db::getConnection();
         $itemList = array();
 
         $result = $db->query('SELECT * FROM `customers`');
-
-        // $name = $_POST["name"];
-        // $surname = $_POST["surname"];
-        // $town = $_POST["town"];
-        // $orderSize = $_POST["orderSize"];
-        // $phoneNumber = $_POST["phoneNumber"];
-        // $comment = $_POST["comment"];
-
         $i = 0;
         while($row = $result->fetch()) {
             $itemList[$i]['id'] = $row['id'];
