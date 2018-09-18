@@ -1,0 +1,1840 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"die",
+				"dinena"
+			],
+			[
+				"nu",
+				"numberY"
+			],
+			[
+				"t",
+				"twoSum"
+			],
+			[
+				"getE",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"getel",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"mb",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"card-s",
+				"card-success \tBootstrap 4 Class"
+			],
+			[
+				"h",
+				"h4\tTag"
+			],
+			[
+				"form-control",
+				"form-control-lg \tBootstrap 4 Class"
+			],
+			[
+				"f",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"form",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"te",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"dis",
+				"display-3 \tBootstrap 4 Class"
+			],
+			[
+				"pre",
+				"pre_r"
+			],
+			[
+				"pro",
+				"product_ids"
+			],
+			[
+				"sesion_de",
+				"session_destroy"
+			],
+			[
+				"se",
+				"_SESION"
+			],
+			[
+				"inp",
+				"INPUT_POST"
+			],
+			[
+				"shop",
+				"shoping_cart"
+			],
+			[
+				"filter",
+				"filter_input"
+			],
+			[
+				"col-",
+				"col-lg \tBootstrap 4 Class"
+			],
+			[
+				"im",
+				"img-fluid \tBootstrap 4 Class"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"Add",
+				"add_to_cart"
+			],
+			[
+				"btn",
+				"btn-info \tBootstrap 4 Class"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"col-md",
+				"col-md-1 \tBootstrap 4 Class"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"sma",
+				"smallest"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"fol",
+				"folder_array"
+			],
+			[
+				"fo",
+				"for\tfor …"
+			],
+			[
+				"fil",
+				"file_array"
+			],
+			[
+				"a",
+				"array\t$… = array (…)"
+			],
+			[
+				"fi",
+				"file"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"rea",
+				"read_files"
+			],
+			[
+				"list-group",
+				"list-group-item \tBootstrap 4 Class"
+			],
+			[
+				"jus",
+				"justify-content-end \tBootstrap 4 Class"
+			],
+			[
+				"justify-content",
+				"justify-content-end \tBootstrap 4 Class"
+			],
+			[
+				"bg",
+				"bg-info \tBootstrap 4 Class"
+			],
+			[
+				"bt",
+				"btn-lg \tBootstrap 4 Class"
+			],
+			[
+				"nav",
+				"nav-item \tBootstrap 4 Class"
+			],
+			[
+				"justify-content-r",
+				"justify-content-around \tBootstrap 4 Class"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"e",
+				"echo\techo \"…\""
+			],
+			[
+				"S",
+				"STARTDATE"
+			],
+			[
+				"o",
+				"opaMasyvas"
+			],
+			[
+				"da",
+				"DATE"
+			],
+			[
+				"pr",
+				"proc"
+			],
+			[
+				"Wo",
+				"WORK"
+			],
+			[
+				"w",
+				"work"
+			],
+			[
+				"no",
+				"noww"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"tr",
+				"try\tTry/Except"
+			],
+			[
+				"st",
+				"str"
+			],
+			[
+				"fro",
+				"for\tFor Loop"
+			],
+			[
+				"sa",
+				"savaites_menesiai_pakeistas"
+			],
+			[
+				"whe",
+				"where_List"
+			],
+			[
+				"wh",
+				"whereList"
+			],
+			[
+				"lis",
+				"list"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"de",
+				"def\tFunction"
+			],
+			[
+				"iv",
+				"iv2"
+			],
+			[
+				"op",
+				"opa2"
+			],
+			[
+				"ma",
+				"masinu_sarasas"
+			],
+			[
+				"kn",
+				"tinkacios_knygos_kategorija"
+			],
+			[
+				"k",
+				"knygu_objektas"
+			],
+			[
+				"auto",
+				"autoriai"
+			],
+			[
+				"array",
+				"Array"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"str",
+				"strSplited"
+			],
+			[
+				"rot",
+				"rotated"
+			],
+			[
+				"ab",
+				"abc"
+			],
+			[
+				"nor",
+				"norm"
+			],
+			[
+				"spl",
+				"split\t( separator: string, limit: int ): string String"
+			],
+			[
+				"sp",
+				"split\t( separator: string, limit: int ): string String"
+			],
+			[
+				"strin",
+				"stringas"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"sorte",
+				"sortedArray"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"ar",
+				"arr"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"bi",
+				"bigArr"
+			],
+			[
+				"au",
+				"aut"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"aut",
+				"aut"
+			],
+			[
+				"array_u",
+				"array_unique"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"ka",
+				"kategoriju_sarasas"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"pa",
+				"pavadinimas_array"
+			],
+			[
+				"paav",
+				"pavadinimas_mazos_raides"
+			],
+			[
+				"pavad",
+				"pavadinimas_tik_mazos_raides"
+			],
+			[
+				"kny",
+				"knygu_masyvas"
+			],
+			[
+				"var",
+				"vardai"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"g",
+				"gsdf"
+			],
+			[
+				"su",
+				"sukirpti_pagal_eilutes"
+			],
+			[
+				"pav",
+				"paveiksliukas"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"HTML",
+				"HTML5"
+			],
+			[
+				"kr",
+				"krabas"
+			],
+			[
+				"u",
+				"unikalus"
+			],
+			[
+				"K",
+				"Knygos"
+			],
+			[
+				"para",
+				"parametras1"
+			],
+			[
+				"ne",
+				"new_array"
+			],
+			[
+				"gre",
+				"grades"
+			],
+			[
+				"hi",
+				"height\tAttr"
+			],
+			[
+				"ge",
+				"getPavadinimas"
+			],
+			[
+				"ap",
+				"aprasymas"
+			],
+			[
+				"ad",
+				"adrText"
+			],
+			[
+				"vi",
+				"visuTinkamuFailu"
+			],
+			[
+				"si",
+				"surusiotas16"
+			],
+			[
+				"l",
+				"laikinas"
+			],
+			[
+				"v",
+				"visiInt"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "index.php"
+			}
+		},
+		{
+			"contents": "--------------===PLANAS===--------------\n\n---=Dienos Nr:1 |09-11|=---\nPomodoro:\n[||]\n===========================\nGauti ir isanalizuoti uzduoti []\nnusipaisyt dizaina[]\nsumastyt mvc\nsumastyt pagination\n---=Dienos Nr:2 |09-12|=---\nPomodoro:\n[]\n===========================\napsigyvent naujoj vietoj\n\n\n---=Dienos Nr:3 |09-13|=---\nPomodoro:\n[]\n===========================\n\n\n\n---=Dienos Nr:4 |09-14|=---\nPomodoro:\n[]\n===========================\n\n\n\n---=Dienos Nr:5 |09-15|=---\nPomodoro:\n[]\n===========================\n\n\n\n---=Dienos Nr:6 |09-16|=---\nPomodoro:\n[]\n===========================\n\n\n\n---=Dienos Nr:7 |09-17|=---\nPomodoro:\n[]\n===========================\n!!!!!DEADLINE!!!!\n!!!!!DEADLINE!!!!\n!!!!!DEADLINE!!!!\n---=Dienos Nr:8 |09-18|=---\n\n\n",
+			"file": "planas",
+			"file_size": 448,
+			"file_write_time": 131811549681833802,
+			"settings":
+			{
+				"buffer_size": 737,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "uzduotis",
+			"settings":
+			{
+				"buffer_size": 947,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "uzduotis"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Python 3/Python3.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"php",
+				"Snippet: <?php else: ?>"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"phpfmt ",
+				"phpfmt: toggle format on save"
+			],
+			[
+				"phpfmt in",
+				"phpfmt: indentation with spaces"
+			],
+			[
+				"package contr",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: __magic__"
+			],
+			[
+				"proje",
+				"Project: Edit Project"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package co",
+				"Package Control: Install Package"
+			],
+			[
+				"select t",
+				"UI: Select Theme"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"PROJE",
+				"Project: Refresh Folders"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"bra",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"sp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"for",
+				"phpfmt: format now"
+			],
+			[
+				"a",
+				"About"
+			],
+			[
+				"code",
+				"PHP CodeBeautifier"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"anac",
+				"Anaconda: Fix PHP Document Style"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"ReadmePlease"
+			],
+			[
+				"Re",
+				"ReadmePlease"
+			],
+			[
+				"PHP",
+				"PHPCompanion:Implement Interface"
+			],
+			[
+				"fix",
+				"PHP Coding Standards Fixer: Fix this file (PHP-CS-Fixer)"
+			],
+			[
+				"ca",
+				"Build: Cancel"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sni",
+				"Snippet: Interface"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"c",
+				"Build: Cancel"
+			],
+			[
+				"bui",
+				"Build: Cancel"
+			],
+			[
+				"pac",
+				"Package Control: Add Channel"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"can",
+				"Build: Cancel"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"cance",
+				"Build: Cancel"
+			],
+			[
+				"UPP",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 194.0,
+		"history":
+		[
+			"s",
+			"3*3",
+			"cd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/tutorial/nfq/projektas"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/tutorial/nfq/projektas/temp.py",
+		"/opt/lampp/htdocs/tutorial/js/weightConverter/index.html",
+		"/home/cheb/Desktop/bidons/leetCode/leetCodeTwoSum.py",
+		"/home/cheb/Desktop/bidons/leetCode/isPrime.py",
+		"/home/cheb/Desktop/youtube/mp3",
+		"/opt/lampp/htdocs/tutorial/phpTutorial/shopingCart/cart.css",
+		"/opt/lampp/htdocs/tutorial/phpTutorial/shopingCart/shopingCart.php",
+		"/home/cheb/.config/sublime-text-3/Packages/phpfmt/Default.sublime-keymap",
+		"/home/cheb/.config/sublime-text-3/Packages/User/phpfmt.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/phpfmt/message",
+		"/home/cheb/.config/sublime-text-3/Packages/User/phpcbf.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/CSS.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Package Control.last-run",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Package Control.merged-ca-bundle",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle",
+		"/home/cheb/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/cheb/.config/sublime-text-3/Packages/phpcbf/phpcbf.sublime-settings",
+		"/home/cheb/.bashrc",
+		"/opt/lampp/htdocs/tutorial/plan/uzduotys.php",
+		"/opt/lampp/htdocs/dashboard/index.php",
+		"/opt/lampp/htdocs/tutorial/phpTutorial/shopingCart.php",
+		"/opt/lampp/htdocs/dashboard/backup.php",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/temp_formated_norm2.py",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/FullListText.txt",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/temp_formated_norm.py",
+		"/opt/lampp/htdocs/tutorial/bootstrap4/acordion.html",
+		"/home/cheb/Desktop/bidons/algorithm/selection.py",
+		"/home/cheb/Desktop/bidons/algorithm/recursion/41.py",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/freeCheker.py",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/temp_formated.txt",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/Full_structured.py",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/temp_formated_structure.py",
+		"/home/cheb/Desktop/apie.txt",
+		"/home/cheb/Downloads/write-higher-order-arrow-functions.json",
+		"/home/cheb/Downloads/f.txt",
+		"/home/cheb/Downloads/Novorossian cossacks to the Mutt President!",
+		"/home/cheb/Desktop/bidons/freeCodeCampChecker/FullList",
+		"/opt/lampp/htdocs/tutorial/freeCodeCamp/html/free_trash.html",
+		"/home/cheb/Desktop/thinkTemp/ThinkPad-Fan-Control-master/README.md",
+		"/etc/modprobe.d/options",
+		"/home/cheb/failai",
+		"/home/cheb/Desktop/gog_com-Enter_the_Gungeon_1.desktop",
+		"/home/cheb/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/qq",
+		"/opt/lampp/htdocs/php/test.py",
+		"/opt/lampp/htdocs/php/expotest.py",
+		"/home/cheb/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/opt/lampp/htdocs/index.php",
+		"/opt/lampp/htdocs/dashboard/index.html",
+		"/home/cheb/Downloads/adventure/adventure-master/elements.html",
+		"/home/cheb/Downloads/adventure/adventure-master/generic.html",
+		"/home/cheb/Downloads/adventure/adventure-master/index.html",
+		"/home/cheb/Downloads/adventure/adventure-master/scss/theme/_flexbox.scss",
+		"/home/cheb/Downloads/adventure/adventure-master/.gitignore",
+		"/home/cheb/Downloads/adventure/adventure-master/.gitattributes",
+		"/home/cheb/Downloads/adventure/adventure-master/Adventure-doc/index.html",
+		"/opt/lampp/htdocs/nfq/qq/index.php",
+		"/home/cheb/Downloads/adventure/adventure-master/mail.php",
+		"/opt/lampp/logs/error_log",
+		"/home/cheb/Desktop/knygos/Dusty Phillips - Python 3 Object-oriented Programming (Second Edition) - 2015/Code/Chapter5/5_15_cache_getter.py",
+		"/home/cheb/Desktop/knygos/Dusty Phillips - Python 3 Object-oriented Programming (Second Edition) - 2015/Code/Chapter5/5_14_read_only_getattribute.py",
+		"/home/cheb/Desktop/knygos/Dusty Phillips - Python 3 Object-oriented Programming (Second Edition) - 2015/Code/Chapter5/5_13_read_only_setattr.py",
+		"/home/cheb/Desktop/knygos/Dusty Phillips - Python 3 Object-oriented Programming (Second Edition) - 2015/Code/Chapter5/5_12_property_decorator_get_set.py",
+		"/home/cheb/Desktop/knygos/Dusty Phillips - Python 3 Object-oriented Programming (Second Edition) - 2015/Code/Chapter5/5_16_average_property.py",
+		"/home/cheb/.bash_history",
+		"/home/cheb/Desktop/lenkas.pl",
+		"/home/cheb/Desktop/testas.pl",
+		"/home/cheb/Downloads/Win10.x86-x64.Rus-Eng.20in1.KMS-activation/readme.txt",
+		"/home/cheb/Downloads/Win10.x86-x64.Rus-Eng.20in1.KMS-activation/m0nkrus.nfo",
+		"/home/cheb/Desktop/bash/inputas.sh",
+		"/home/cheb/Desktop/bidons/hackerRank/bidons/string/MergeTools.py",
+		"/home/cheb/Desktop/bidons/hackerRank/bidons/math/triangleQuest.py",
+		"/home/cheb/Desktop/pom/working.sh",
+		"/home/cheb/Desktop/pom/pom.sh",
+		"/home/cheb/Desktop/bash/intToString.sh",
+		"/home/cheb/Desktop/bidons/medis",
+		"/home/cheb/Desktop/bash/pom.sh",
+		"/home/cheb/Desktop/bash/testas",
+		"/home/cheb/Desktop/pom/pertauka",
+		"/home/cheb/Desktop/bash/working.sh",
+		"/home/cheb/Desktop/bash/fialas",
+		"/home/cheb/Desktop/bash/testas222",
+		"/home/cheb/Downloads/Interneto_paslaugos_APACHE.txt",
+		"/home/cheb/Downloads/Apache_derinimo_prototipu_PVZ.txt",
+		"/home/cheb/Downloads/httpd_pvz.conf",
+		"/home/cheb/Downloads/istorija.txt",
+		"/home/cheb/Desktop/pom/tree",
+		"/home/cheb/Desktop/pom/calculation.py",
+		"/home/cheb/Desktop/pom/kolegija",
+		"/home/cheb/Desktop/pom/chain.py",
+		"/home/cheb/Desktop/pom/plan/plan",
+		"/home/cheb/Desktop/bidons/NameOfWind/scrapped/merged.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/scrapped/comon.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/scrapped/filtered.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/scrapped/removed_stuff.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/merged.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/scrapped/blog_70/64.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/text",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C007%5D/Internal storage/AppData.txt",
+		"/home/cheb/Desktop/walpaper.sh",
+		"/home/cheb/Desktop/bash/walpaper/walpaper.sh",
+		"/tmp/crontab.fmzR48/crontab",
+		"/home/cheb/crontab",
+		"/home/cheb/Desktop/bash/tilt/quicktile-master/quicktile/commands.py",
+		"/home/cheb/Desktop/bidons/turtle/removed_stuff.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/comon.txt",
+		"/home/cheb/Desktop/bidons/turtle/filtered.txt",
+		"/home/cheb/Desktop/bidons/turtle/comon.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/filter",
+		"/home/cheb/Desktop/bidons/NameOfWind/filtered.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/removed_stuff.txt",
+		"/home/cheb/Desktop/bidons/NameOfWind/merged",
+		"/home/cheb/Desktop/bidons/NameOfWind/removed",
+		"/home/cheb/Desktop/bidons/NameOfWind/noPublished",
+		"/home/cheb/Desktop/android/android-studio/bin/studio",
+		"/home/cheb/Desktop/bidons/test/recursion.py",
+		"/etc/cron.hourly/walpaper.sh",
+		"/etc/cron.hourly/.placeholder",
+		"/home/cheb/tree",
+		"/home/cheb/Desktop/bidons/palidroms.py",
+		"/home/cheb/Desktop/bidons/django_tut/mysite/webapp/tests.py",
+		"/home/cheb/Desktop/bidons/django_tut/mysite/manage.py",
+		"/home/cheb/Desktop/bidons/kryzNullPatsPries.py"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"=---",
+			"b",
+			"b=",
+			"a=",
+			"{b}",
+			"{a}",
+			"a",
+			"SESION",
+			"id",
+			"prod",
+			"photos/panda.jpeg",
+			"name",
+			">\n",
+			"<input type=\"checkbox\" name=\"uzduotis1\" value=\"1\"> php Shoping cart<br>",
+			">\n",
+			"cart",
+			"js",
+			"print(\"praejo: {}\".format((time.time() - start)))",
+			"]",
+			"hollow",
+			"’",
+			"‘",
+			"’",
+			"‘",
+			"'",
+			"\"",
+			"algor",
+			"helmet",
+			"informa",
+			"Introduction to the",
+			"{",
+			"#$folder_array[$i]",
+			"file",
+			"collapseTwo",
+			"headingTwo",
+			"\"",
+			"$file",
+			"collapseTwo",
+			"\"",
+			"G",
+			">\n",
+			"qqqq",
+			"download",
+			"down",
+			"why",
+			"New",
+			"ssh",
+			"FILE2",
+			"FILE1",
+			"FILE2",
+			"FILE1",
+			"figlet",
+			"print",
+			"\")",
+			"opa",
+			"print",
+			"PasswordAuthentication",
+			"Password",
+			"PasswordAuthentication",
+			"pass",
+			"password",
+			"pass",
+			"\n&page_nr=3&page_nr=3",
+			"3",
+			"105",
+			" -",
+			"bmw",
+			"\">",
+			"option value",
+			">",
+			"Right",
+			"W-Right",
+			"Dyz",
+			"fuel_id",
+			"dyz",
+			"new",
+			"Dyzelinas",
+			"dyz",
+			"dy",
+			"Dyz",
+			"Dyze",
+			"php",
+			"\"|\"\n",
+			"amazon",
+			"'",
+			"{",
+			"nuoroda",
+			"linkai",
+			"prekes",
+			"[",
+			"linkai",
+			"week_day",
+			"x",
+			"qeris",
+			",",
+			"https://www.amazon.com/gp/new-releases/home-garden/16186594011/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/home-garden/16353701/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/home-garden/16186594011/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344https://www.amazon.com/gp/new-releases/home-garden/16186594011/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/home-garden/16186594011/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/home-garden/11601926011/ref=zg_bsnr_nav_hg_3_2422453011/146-5151930-1375344",
+			"wad ",
+			"wad",
+			"video",
+			"fash",
+			"fashion",
+			"fashion/",
+			"https://www.amazon.com/gp/new-releases/fashion/",
+			"https://www.amazon.com/gp/new-releases/fashion/7586144011/ref=zg_bsnr_unv_2_7586145011_",
+			"https://www.amazon.com/gp/new-releases/fashion/7586144011/ref=zg_bsnr_unv_2_7586145011_1",
+			"https://www.amazon.com/gp/new-releases/fashion/7586145011/ref=zg_bsnr_nav_2_7586144011",
+			"grocery",
+			"grocery/",
+			"gro",
+			"groce",
+			"https://www.amazon.com/gp/new-releases/videogames/541022/ref=zg_bsnr_nav_vg_2_294940/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/videogames/537504/ref=zg_bsnr_nav_vg_2_294940/146-5151930-1375344",
+			"releases",
+			"1375344",
+			"2407748011/ref=zg_bsnr_nav_e_2_2811119011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/electronics/2407748011/ref=zg_bsnr_nav_e_2_2811119011/146-5151930-1375344",
+			"https://www.amazon.com/gp/new-releases/boost/12034492011/ref=zg_bsnr_nav_1_boost/146-5151930-1375344",
+			"78.",
+			"https://www.amazon.com/Hikari-White-Coffee-Classic-Handles/dp/B0788BFGPW/ref=zg_bsnr_367125011_31/145-4943046-2967166?_encoding=UTF8&psc=1&refRID=GGV8MHR3MR3B8QW8QN2D",
+			"nera",
+			"FT:https://images-na.ssl-images-amazon.com/images/I/7190OYm-NXL._SL500_SR160,160_.jpg",
+			"Pv:Bodum Bistro Glass Coffee Mug 11239 12-ounces .35L Set of 6",
+			"Pv:DOWAN Coffee Mug Set - 14 Ounce White Large Ceramic Mugs for Coffee/Tea/Cocoa , Set of 6 (Multi-Color)\nKN:[31.99]\nST:2\nIV:5.0\nPR:1\nFT:https://images-na.ssl-images-amazon.com/images/I/61fZhVIkqNL._SL500_SR160,160_.jpg",
+			"DOWAN Coffee Mug Set - 14"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/opt/lampp/htdocs/tutorial/nfq/projektas"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.php",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "planas",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "uzduotis",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"auto_name": "uzduotis",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 211.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"spot",
+				"roux_website/spotlight.htm"
+			],
+			[
+				"fra",
+				"~/Desktop/bidons/datatypes/1.13. Object-Oriented Programming in Python: Defining Classes/fraction.py"
+			],
+			[
+				"",
+				"test.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"TabbedPanelsTabSelected"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 132.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
