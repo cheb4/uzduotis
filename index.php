@@ -3,7 +3,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-define('ROOT', '/opt/lampp/htdocs/tutorial/nfq/projektas');
+define('ROOT', 'app/');
 // echo ROOT;
 
 // echo "opa";
