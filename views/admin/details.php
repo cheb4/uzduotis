@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Order Form</title>
-    <link rel="stylesheet"  href="./reset.css">
-    <link rel="stylesheet"  href="./main.css">
+    <link rel="stylesheet"  href="https://desolate-reaches-61237.herokuapp.com/reset.css">
+    <link rel="stylesheet"  href="https://desolate-reaches-61237.herokuapp.com/main.css">
 </head>
 <body>
 <!--change when uploading to server  -->
@@ -23,7 +23,28 @@
 </body>
 </html>
 
-
+<table>
+  <tr>
+    <th>a</th>
+    <th>aaa</th>
+  </tr>
+  <tr>
+    <td>aa</td>
+    <td>bb</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 
 <?php
