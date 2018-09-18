@@ -25,25 +25,34 @@
 
 <table>
   <tr>
-    <th>a</th>
-    <th>aaa</th>
+    <th>id</th>
+    <td><?php echo $oneItem['id'];?></td>
   </tr>
   <tr>
-    <th>a</th>
-    <td>bb</td>
+    <th>vardas</th>
+    <td><?php echo $oneItem['name'];?></td>
   </tr>
   <tr>
-    <th>a</th>
-    <td></td>
+    <th>pavarde</th>
+    <td><?php echo $oneItem['surname'];?></td>
   </tr>
   <tr>
-    <th>a</th>
-    <td></td>
+    <th>Miestas</th>
+    <td><?php echo $oneItem['city'];?></td>
   </tr>
   <tr>
-    <th>a</th>
-    <td></td>
+    <th>uzsakymo skaicius</th>
+    <td><?php echo $oneItem['id'];?></td>
   </tr>
+    <tr>
+    <th>telefono numeris</th>
+    <td><?php echo $oneItem['id'];?></td>
+  </tr>
+    <tr>
+    <th>komentaras</th>
+    <td><?php echo $oneItem['id'];?></td>
+  </tr>
+  
 </table>
 
 

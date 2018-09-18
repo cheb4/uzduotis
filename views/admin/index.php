@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Order Form</title>
+    <title>Order List</title>
     <link rel="stylesheet"  href="https://desolate-reaches-61237.herokuapp.com/reset.css">
     <link rel="stylesheet"  href="https://desolate-reaches-61237.herokuapp.com/main.css">
 
