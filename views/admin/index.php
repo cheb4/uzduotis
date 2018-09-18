@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Order Form</title>
-    <link rel="stylesheet"  href=".//reset.css">
-    <link rel="stylesheet"  href=".//main.css">
+    <link rel="stylesheet"  href="//reset.css">
+    <link rel="stylesheet"  href="//main.css">
 </head>
 <body>
     <div id="main-container">
