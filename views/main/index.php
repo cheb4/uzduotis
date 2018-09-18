@@ -27,11 +27,11 @@
             </div>
             <div class="form-field">
                 <label>Miestas</label>
-                <input  type="text" name="city" >
+                <input  type="text" name="town" >
             </div>
             <div class="form-field">
                 <label>Kiekis</label>
-                <input  type="text" name="ammount" >
+                <input  type="text" name="orderSize" >
             </div>
             <div class="form-field">
                 <label>Telefonas</label>
