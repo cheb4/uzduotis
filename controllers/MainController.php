@@ -9,15 +9,14 @@ class MainController
 
     public function actionDisplay()
     {
-        echo "<br>rodau viska  pirmam puslapyje<br>";
+        
         require_once(ROOT . '/views/main/index.php');
         return true;
     }
 
     public function actionInsert()
     {
-        echo "<br>rodau OPA <br>";
-        echo "insertinu duomenis<br>";
+        echo "<br><h1>Ačiu</h1> <br>";
         require_once(ROOT . '/views/main/sucsess.php');
 
         if( isset($_POST["name"]) || isset($_POST["surname"]) ) {
@@ -29,18 +28,12 @@ class MainController
         $comment = $_POST["comment"];
         $sql = "INSERT INTO `customers` (`id`, `name`, `surname`, `city`, `orderNum`, `phone`, `comment`) VALUES"." (NULL, '$name', '$surname', '$town', '$orderSize', '$phoneNumber', '$comment');";
 
-        echo "$sql";
         Main::insertDataToDatabase($sql);
 
         }
         return true;
     }
 
-        public function actionAntras()
-    {
-        echo "<br>rodau OPA antras<br>";
-        return true;
-    }
 }
 
 
