@@ -1,11 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Order Form</title>
+    <link rel="stylesheet"  href="./reset.css">
+    <link rel="stylesheet"  href="./main.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="/order-form">Order form</a></li>
+                <li><a href="/product-list">Products list</a></li>
+            </ul>
+        </div>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+
 <table class="tg">
   <tr>
     <th class="tg-0lax">id <a href="https://desolate-reaches-61237.herokuapp.com/admin/id_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/id_desc/index.php?page=1">↓</a> </th>
@@ -30,11 +41,15 @@ echo "<tr>";
 }
 ?>
 </table>
-<?
 
-?>
 <?
 
 for ($page=1;$page<=$pageNum;$page++) {
     echo '<a href="index.php?page=' . $page . '">' . $page . '</a> ';
 }
+?>
+
+
+</div>
+</body>
+</html>

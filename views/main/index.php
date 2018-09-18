@@ -8,12 +8,12 @@
     <link rel="stylesheet"  href="./main.css">
 </head>
 <body>
-    
+
     <div id="main-container">
         <div id="header">
             <ul class="nav">
                 <li><a href="/order-form">Order form</a></li>
-                <li><a href="/product-list">Products list</a></li>
+                <li><a href="/admin/index.php?page=1">Products list</a></li>
             </ul>
         </div>
         <form id="order-form" action="/insert" method="POST">
@@ -46,13 +46,3 @@
     </div>
 </body>
 </html>
-
-
-
-<?php
-
-if( isset($_POST["name"]) || isset($_POST["surname"]) ) {
-    echo "labas".$_POST["name"]." ".$_POST["surname"];
-
-}
-  ?>
