@@ -1,35 +1,53 @@
-<?php
-
-echo "cia bus main.php index  puslapis";
-
-echo "<hr>didelis puslapis<hr>";
-
-?>
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <title>ssss</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Order Form</title>
+    <link rel="stylesheet"  href="./reset.css">
+    <link rel="stylesheet"  href="./main.css">
 </head>
 <body>
-    <!--change when uploading to server  -->
-<form action = "/insert" method = "POST">
- Vardas
- <br><input  type="text" name="name" ><br>
- Pavarde
- <br><input  type="text" name="surname" ><br>
- Miestas
- <br><input  type="text" name="town" ><br>
- uzsakymo skaicius
- <br><input type="number" name="orderSize" ><br>
- telefonas
- <br><input  type="number" min="1" name="phoneNumber" ><br>
- Komentaras
- <br><input  type="text" name="comment" ><br>
- <input class="button" type="submit" value="Pateikti">
- </form> 
-
+<!--change when uploading to server  -->
+    <div id="main-container">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="/order-form">Order form</a></li>
+                <li><a href="/product-list">Products list</a></li>
+            </ul>
+        </div>
+        <form id="order-form" action="/insert" method="POST">
+            <div class="form-field">
+                <label>Vardas</label>
+                <input  type="text" name="name" >
+            </div>
+            <div class="form-field">
+                <label>Pavarde</label>
+                <input  type="text" name="surname" >
+            </div>
+            <div class="form-field">
+                <label>Miestas</label>
+                <input  type="text" name="city" >
+            </div>
+            <div class="form-field">
+                <label>Kiekis</label>
+                <input  type="text" name="ammount" >
+            </div>
+            <div class="form-field">
+                <label>Telefonas</label>
+                <input  type="text" name="phone" >
+            </div>
+            <div class="form-field">
+                <label>Komentaras</label>
+                <textarea name="comment"></textarea>
+            </div>
+            <button type="submit">Pateikti</button>
+        </form>
+    </div>
 </body>
 </html>
+
+
 
 <?php
 
