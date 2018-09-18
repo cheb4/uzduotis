@@ -1,21 +1,15 @@
 <?php
 
 include_once ROOT. '/models/Admin.php';
-// include_once ROOT. '/components/Pagination.php';
+
 
 
 class AdminController
 {
     
-    // function __construct()
-    // {
-    //     echo "vygdau konstruktoriu<br>";
-    //     return true;
-    // }
 
     public function displayEverything($sql)
     {
-        // echo "<br>rodau viska ir tik viska <br>";
         $allResult = Admin::getAllData();
         $itemList = Admin::getPagination($sql);
         $pageNum = Admin::getPaginationNum();
@@ -25,7 +19,6 @@ class AdminController
 
     public function actionDisplay()
     {
-        echo "<br>rodau viska ir tik viska <br>";
         $this->displayEverything("SELECT * FROM customers");
         return true;
     }
@@ -114,7 +107,6 @@ class AdminController
     {
         $detailNuber = $this->getDetailsPage();
         if (is_numeric($detailNuber)) {
-        echo "<hr>$detailNuber<hr>";
         $oneItem = Admin::getByID($detailNuber);
 
 
@@ -128,24 +120,6 @@ class AdminController
     
 
 
-
-
-    public function actionOpa()
-    {
-        echo "<br>rodau OPA <br>";
-        $uri = $this-> getCurrentPage();
-
-        // echo "$uri";
-        print_r($uri);
-
-        return true;
-    }
-
-        public function actionAntras()
-    {
-        echo "<br>rodau OPA antras<br>";
-        return true;
-    }
 }
 
 
