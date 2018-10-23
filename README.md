@@ -1,4 +1,4 @@
-# nfquzduotis
+
 Atlikta užduotis
 
 Nuoroda i live puslapi:
