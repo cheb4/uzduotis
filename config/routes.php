@@ -14,7 +14,7 @@ return array(
     'admin' => 'admin/display',
     'insert' => 'main/insert',
     '' => 'main/display',
-    'index22.php' => 'main/display/',
+    // 'index22.php' => 'main/display/',
 );
 
 // heroku_7fe484b29314a31
