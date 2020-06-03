@@ -14,6 +14,7 @@ return array(
     'admin' => 'admin/display',
     'insert' => 'main/insert',
     '' => 'main/display',
+
 );
 
 // heroku_7fe484b29314a31
