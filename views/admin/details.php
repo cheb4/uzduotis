@@ -59,7 +59,17 @@
             <?php
 
             // include ROOT . '/models/Main.php';
-            include ROOT . '/db/Db.php';
+            function getConnection()
+            {
+              $paramsPath = ROOT . '/config/db_params.php';
+              $params = include($paramsPath);
+
+
+              $dsn = "mysql:host={$params['host']};dbname={$params['dbname']}";
+              $db = new PDO($dsn, $params['user'], $params['password']);
+
+              return $db;
+            }
 
             if (isset($_POST['button1'])) {
               echo "sda opa" . $oneItem['id'];
