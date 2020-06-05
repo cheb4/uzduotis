@@ -13,6 +13,7 @@ return array(
     'admin-([0-9]+)' => 'admin/getDetails',
     'admin' => 'admin/display',
     'insert' => 'main/insert',
+    'delete' => 'main/delete',
     '' => 'main/display',
 
 );
