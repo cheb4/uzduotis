@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<!-- nera php -->
 
 <head>
     <meta charset="utf-8">
@@ -8,71 +9,7 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
 </head>
-<style>
-    /* .split {
-        height: 100%;
-        width: 50%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-        padding-top: 20px;
-    }
 
-    .left {
-        left: 0;
-        background-color: #0b6b15;
-
-    }
-
-    .right {
-        right: 0;
-        background-color: #0b616b;
-    }
-
-    .centered {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .centered img {
-        width: 150px;
-        border-radius: 50%;
-    } */
-
-    /* .videoBG {
-        position: fixed;
-        z-index: -1;
-    }
-
-    @media (min-aspect-ratio: 16/9) {
-        .videoBG {
-            width: 100%;
-            height: auto;
-        }
-    }
-
-    @media (max-aspect-ratio: 16/9) {
-        .videoBG {
-            width: auto;
-            height: 100%;
-        }
-    }
-
-    @media (max-width: 767px) {
-        .videoBG {
-            display: none;
-        }
-
-        body {
-            background: url('poster.jpg');
-            background-size: cover;
-        }
-    } */
-</style>
 
 <body>
     <div id="start">
@@ -86,9 +23,7 @@
                 <h2>aprasymas2</h2>
 
             </div>
-            <!-- <video autoplay muted loop class="videoBG">
-                <source src="/PexelsVideos1625973.mp4" type="video/mp4">
-            </video> -->
+
         </div>
 
         <div class="split right">

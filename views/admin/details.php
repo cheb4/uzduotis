@@ -56,7 +56,7 @@
 
             </table>
             <?php if (isset($_POST['button1'])) {
-              echo "button 1 has been pressed";
+              echo "opa" + $oneItem['id'];
             }
             ?>
     </div>
