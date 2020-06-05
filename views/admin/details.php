@@ -34,7 +34,7 @@
               <td><?php echo $oneItem['city']; ?></td>
             </tr>
             <tr>
-              <th>uzsakymo dydis</th>
+              <th>uzsakymo vieta</th>
               <td><?php echo $oneItem['orderNum']; ?></td>
             </tr>
             <tr>
