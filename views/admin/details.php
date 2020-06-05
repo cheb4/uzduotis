@@ -88,12 +88,9 @@
               echo "<br>  istrintas id " . $oneItem['id'];
               removeDataFromDb($oneItem['id']);
               // Main::removeDataFromDb($oneItem['id']);
-              echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>";
+              // echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>";
+              header('location: https://desolate-reaches-61237.herokuapp.com/admin/index.php?page=1');
             }
-
-
-
-
 
 
             ?>
