@@ -58,7 +58,7 @@
             </table>
             <?php
 
-            // include ROOT . '/models/Main.php';
+
             function getConnection()
             {
               $paramsPath = ROOT . '/config/db_params.php';
@@ -71,8 +71,23 @@
               return $db;
             }
 
+            function removeDataFromDb($data)
+            {
+
+              $base = getConnection();
+
+
+              $sql = "DELETE FROM `customers` WHERE " . $data . ";";
+
+
+              $result = $base->query($sql);
+            }
+
+
+
             if (isset($_POST['button1'])) {
               echo "sda opa" . $oneItem['id'];
+              removeDataFromDb($oneItem['id']);
               // Main::removeDataFromDb($oneItem['id']);
             }
 
