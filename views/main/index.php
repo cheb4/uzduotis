@@ -9,12 +9,7 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <style>
-    body {
-        font-family: Arial;
-        color: white;
-    }
-
-    .split {
+    /* .split {
         height: 100%;
         width: 50%;
         position: fixed;
@@ -26,12 +21,13 @@
 
     .left {
         left: 0;
-        background-color: #111;
+        background-color: #0b6b15;
+
     }
 
     .right {
         right: 0;
-        background-color: red;
+        background-color: #0b616b;
     }
 
     .centered {
@@ -45,7 +41,7 @@
     .centered img {
         width: 150px;
         border-radius: 50%;
-    }
+    } */
 
     /* .videoBG {
         position: fixed;
@@ -86,7 +82,7 @@
             <div class="centered">
 
 
-                <h1>aprasymas</h1>
+                <h1 class="mainDesc">aprasymas</h1>
                 <h2>aprasymas2</h2>
 
             </div>
@@ -98,7 +94,7 @@
         <div class="split right">
             <div class="centered">
 
-                <h1>Aprasymas</h1>
+                <h1 class="mainDesc">Aprasymas</h1>
                 <h2>aprasymas2</h2>
             </div>
         </div>

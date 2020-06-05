@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     color: #222222;
     font-family: arial, helvetica, "sans-serif";
@@ -9,12 +10,10 @@ html, body {
 }
 
 #header {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
-#order-form {
-
-}
+#order-form {}
 
 #order-form button {
     width: 400px;
@@ -78,3 +77,42 @@ table th a {
     color: #4879af;
 }
 
+.mainDesc {
+    color: white;
+    font-size: 3em;
+}
+
+/*  */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #0b6b15;
+
+}
+
+.right {
+    right: 0;
+    background-color: #0b616b;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
