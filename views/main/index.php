@@ -85,7 +85,7 @@
     });
     document.querySelector("#start > div.split.right").addEventListener("click", function(e) {
         console.log("ne opa");
-        window.open("https://www.youraddress.com", "_self");
+        window.open("https://desolate-reaches-61237.herokuapp.com/admin/index.php?page=1", "_self");
         // document.getElementById("start").remove()
     });
 </script>
