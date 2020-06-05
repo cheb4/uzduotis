@@ -56,7 +56,7 @@
 
             </table>
             <?php if (isset($_POST['button1'])) {
-              echo "opa" + $oneItem['id'];
+              echo "sda opa" . $oneItem['id'];
             }
             ?>
     </div>
