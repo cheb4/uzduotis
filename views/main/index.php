@@ -46,6 +46,36 @@
         width: 150px;
         border-radius: 50%;
     }
+
+    /* .videoBG {
+        position: fixed;
+        z-index: -1;
+    }
+
+    @media (min-aspect-ratio: 16/9) {
+        .videoBG {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media (max-aspect-ratio: 16/9) {
+        .videoBG {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .videoBG {
+            display: none;
+        }
+
+        body {
+            background: url('poster.jpg');
+            background-size: cover;
+        }
+    } */
 </style>
 
 <body>
@@ -54,17 +84,22 @@
 
         <div class="split left">
             <div class="centered">
-                <img src="img_avatar2.png" alt="Avatar woman">
-                <h2>Jane Flex</h2>
-                <p>Some text.</p>
+
+
+                <h1>aprasymas</h1>
+                <h2>aprasymas2</h2>
+
             </div>
+            <!-- <video autoplay muted loop class="videoBG">
+                <source src="/PexelsVideos1625973.mp4" type="video/mp4">
+            </video> -->
         </div>
 
         <div class="split right">
             <div class="centered">
-                <img src="img_avatar.png" alt="Avatar man">
-                <h2>John Doe</h2>
-                <p>Some text here too.</p>
+
+                <h1>Aprasymas</h1>
+                <h2>aprasymas2</h2>
             </div>
         </div>
     </div>
@@ -109,8 +144,8 @@
             <button type="submit">Pateikti</button>
         </form>
     </div>
-    <h1>test</h1>
-    <h2>test2</h2>
+
+
 </body>
 <script>
     document.querySelector("#start > div.split.left").addEventListener("click", function(e) {
