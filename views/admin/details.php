@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/reset.css">
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/main.css">
 </head>
+<?php
+include_once ROOT . '/models/Main.php';
+?>
 
 <body>
   <!--change when uploading to server  -->
@@ -57,6 +60,7 @@
             </table>
             <?php if (isset($_POST['button1'])) {
               echo "sda opa" . $oneItem['id'];
+              Main::removeDataFromDb($oneItem['id']);
             }
             ?>
     </div>
