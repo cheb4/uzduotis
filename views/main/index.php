@@ -19,7 +19,7 @@
             <div class="centered">
 
 
-                <h1 class="mainDesc">Užsakyti</h1>
+                <h1 class="mainDesc">Užsakyti vieta</h1>
 
 
             </div>
@@ -29,8 +29,8 @@
         <div class="split right">
             <div class="centered">
 
-                <h1 class="mainDesc">Užsakytų sąrašas</h1>
-                <h2>aprasymas2</h2>
+                <h1 class="mainDesc">Užsakytų vietų sąrašas</h1>
+
             </div>
         </div>
     </div>
