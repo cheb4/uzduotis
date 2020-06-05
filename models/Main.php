@@ -15,8 +15,9 @@ class Main
 
     public static function removeDataFromDb($data)
     {
+        echo "kailad";
         $base = Db::getConnection();
-
+        echo "kailad";
 
         $sql = "DELETE FROM `customers` WHERE " . $data . ";";
 
