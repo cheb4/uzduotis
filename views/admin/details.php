@@ -88,7 +88,7 @@
               echo "<br>  istrintas id " . $oneItem['id'];
               removeDataFromDb($oneItem['id']);
               // Main::removeDataFromDb($oneItem['id']);
-              echo `<INPUT TYPE="button" VALUE="gryzti" onClick="history.go(-1);">`;
+              echo "<a href=\"javascript:history.go(-1)\">GO BACK</a>";
             }
 
 
