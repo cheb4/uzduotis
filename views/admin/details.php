@@ -58,7 +58,7 @@
             </table>
             <?php
 
-            include ROOT . '/models/Main.php';
+            // include ROOT . '/models/Main.php';
 
             // if (isset($_POST['button1'])) {
             //   echo "sda opa" . $oneItem['id'];
