@@ -15,12 +15,12 @@ class Main
 
     public static function removeDataFromDb($data)
     {
-        $db = Db::getConnection();
+        $base = Db::getConnection();
 
 
         $sql = "DELETE FROM `customers` WHERE " . $data . ";";
 
 
-        $result = $db->query($sql);
+        $result = $base->query($sql);
     }
 }
