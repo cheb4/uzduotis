@@ -119,7 +119,7 @@
     });
     document.querySelector("#start > div.split.right").addEventListener("click", function(e) {
         console.log("ne opa");
-        window.open("https://www.w3schools.com")
+        window.open("https://www.youraddress.com", "_self");
         // document.getElementById("start").remove()
     });
 </script>
