@@ -50,7 +50,8 @@
               <th>trinti</th>
               <td>
                 <form method="POST" action=''>
-                  <input type="submit" name="button1" value="My Button">
+                  <input type="submit" name="button1" value="Istrinti">
+
                 </form>
               </td>
             </tr>
@@ -79,17 +80,21 @@
 
               $sql = "DELETE FROM `customers` WHERE id = " . $data . ";";
 
-
               $result = $base->query($sql);
             }
 
 
-
             if (isset($_POST['button1'])) {
-              echo "sda opa" . $oneItem['id'];
+              echo "<br>  istrintas id " . $oneItem['id'];
               removeDataFromDb($oneItem['id']);
               // Main::removeDataFromDb($oneItem['id']);
+              echo `<INPUT TYPE="button" VALUE="gryzti" onClick="history.go(-1);">`;
             }
+
+
+
+
+
 
             ?>
     </div>
