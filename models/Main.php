@@ -13,15 +13,15 @@ class Main
         $result = $db->query($data);
     }
 
-    // public static function removeDataFromDb($data)
-    // {
-    //     echo "kailad";
-    //     $base = Db::getConnection();
-    //     echo "kailad";
+    public static function removeDataFromDb($data)
+    {
 
-    //     $sql = "DELETE FROM `customers` WHERE " . $data . ";";
+        $base = Db::getConnection();
 
 
-    //     $result = $base->query($sql);
-    // }
+        $sql = "DELETE FROM `customers` WHERE " . $data . ";";
+
+
+        $result = $base->query($sql);
+    }
 }

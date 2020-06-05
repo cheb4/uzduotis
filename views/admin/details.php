@@ -59,12 +59,13 @@
             <?php
 
             // include ROOT . '/models/Main.php';
+            include ROOT . '/db/Db.php';
 
-            // if (isset($_POST['button1'])) {
-            //   echo "sda opa" . $oneItem['id'];
-            //   // Main::removeDataFromDb($oneItem['id']);
-            // }
-            // 
+            if (isset($_POST['button1'])) {
+              echo "sda opa" . $oneItem['id'];
+              // Main::removeDataFromDb($oneItem['id']);
+            }
+
             ?>
     </div>
 </body>
