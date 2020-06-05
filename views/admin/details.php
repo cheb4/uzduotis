@@ -77,7 +77,7 @@
               $base = getConnection();
 
 
-              $sql = "DELETE FROM `customers` WHERE " . $data . ";";
+              $sql = "DELETE FROM `customers` WHERE id = " . $data . ";";
 
 
               $result = $base->query($sql);
