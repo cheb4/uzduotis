@@ -42,8 +42,8 @@
         <div id="header">
             <ul class="nav">
                 <!-- navigacija -->
-                <li><a href="/order-form">Order form</a></li>
-                <li><a href="/admin/index.php?page=1">Products list</a></li>
+                <li><a href="/order-form">Užsakymo forma</a></li>
+                <li><a href="/admin/index.php?page=1">Užsakymų sąrašas</a></li>
             </ul>
             <!-- navigacija -->
         </div>

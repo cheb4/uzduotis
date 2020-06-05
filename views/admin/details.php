@@ -15,8 +15,8 @@
   <div id="main-container">
     <div id="header">
       <ul class="nav">
-        <li><a href="/order-form">Order form</a></li>
-        <li><a href=/admin/index.php?page=1>Products list</a> </li> </ul> </div> </div> </body> </html> <table>
+        <li><a href="/order-form">Užsakymo forma</a></li>
+        <li><a href=/admin/index.php?page=1>Užsakymų sąrašas</a> </li> </ul> </div> </div> </body> </html> <table>
             <tr>
               <th>id</th>
               <td><?php echo $oneItem['id']; ?></td>
