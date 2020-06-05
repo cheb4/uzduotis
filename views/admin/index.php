@@ -15,7 +15,7 @@
     <div id="header">
       <ul class="nav">
         <li><a href="/order-form">Užsakymo forma</a></li>
-        <li><a href="/product-list">Užsakymų sąrašas</a></li>
+        <!-- <li><a href="/product-list">Užsakymų sąrašas</a></li> -->
       </ul>
     </div>
 
