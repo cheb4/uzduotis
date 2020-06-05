@@ -29,13 +29,9 @@ class MainController
         $sql = "INSERT INTO `customers` (`id`, `name`, `surname`, `city`, `orderNum`, `phone`, `comment`) VALUES"." (NULL, '$name', '$surname', '$town', '$orderSize', '$phoneNumber', '$comment');";
 
         Main::insertDataToDatabase($sql);
-
+        header('location: https://desolate-reaches-61237.herokuapp.com/');
         }
         return true;
     }
 
 }
-
-
-
-  ?>

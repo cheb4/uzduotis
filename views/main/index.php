@@ -61,7 +61,7 @@
                 <input type="text" name="town">
             </div>
             <div class="form-field">
-                <label>Kiekis</label>
+                <label>Vieta</label>
                 <input type="text" name="orderSize">
             </div>
             <div class="form-field">
