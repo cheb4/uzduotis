@@ -14,7 +14,9 @@ return array(
     'admin' => 'admin/display',
     'insert' => 'main/insert',
     'delete' => 'main/delete',
-    '' => 'main/display',
+    '' => 'start/display',
+    'order-form' => 'main/display',
+
 
 );
 

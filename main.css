@@ -83,6 +83,7 @@ table th a {
 }
 
 /*  */
+
 .split {
     height: 100%;
     width: 50%;
@@ -97,6 +98,9 @@ table th a {
     left: 0;
     background-color: #0b6b15;
 
+}
+.center{
+    
 }
 
 .right {

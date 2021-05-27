@@ -19,13 +19,37 @@
             <div class="centered">
 
 
-                <h1 class="mainDesc">Užsakyti vieta</h1>
+                <h1 class="mainDesc">Užsakyti vietaa</h1>
 
 
             </div>
 
         </div>
-
+        <div class="center">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Joni%C5%A1kis,%20%C5%BEemes%20ukio%20mokykla&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://123movies-a.com"></a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 500px;
+                            width: 500px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">custom google map for website</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 500px;
+                            width: 500px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
         <div class="split right">
             <div class="centered">
 
@@ -79,11 +103,11 @@
 
 </body>
 <script>
-    document.querySelector("#start > div.split.left").addEventListener("click", function(e) {
+    document.querySelector("#start > div.split.left").addEventListener("click", function (e) {
 
         document.getElementById("start").remove()
     });
-    document.querySelector("#start > div.split.right").addEventListener("click", function(e) {
+    document.querySelector("#start > div.split.right").addEventListener("click", function (e) {
         window.open("https://desolate-reaches-61237.herokuapp.com/admin/index.php?page=1", "_self");
         // document.getElementById("start").remove()
     });
