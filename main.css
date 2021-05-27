@@ -17,6 +17,20 @@ body {
 
 .map-table { grid-area: map-table; }
 
+
+.details-container {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "details details-map";
+  }
+  
+  .details { grid-area: details; }
+  
+  .details-map{ grid-area: details-map; }
+
 #main-container{
 
     padding: 20px 0;
