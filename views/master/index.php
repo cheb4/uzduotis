@@ -28,7 +28,8 @@
         <th class="tg-0lax">miestas <a href="https://desolate-reaches-61237.herokuapp.com/master/city_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/master/city_desc/index.php?page=1">↓</a> </th>
         <th class="tg-0lax">užsakyta vieta <a href="https://desolate-reaches-61237.herokuapp.com/master/orderNum_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/master/orderNum_desc/index.php?page=1">↓</a> </th>
         <th class="tg-0lax">telefono numeris</th>
-        <th class="tg-baqh">komentaras</th>
+        <th class="tg-0lax">komentaras</th>
+        <th class="tg-0lax">patvirtinti</th>
       </tr>
       <?php foreach ($itemList as $item) {
 
@@ -40,6 +41,7 @@
         echo "<td class='tg-0lax'>" . $item['orderNum'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
+        echo "<td class='tg-0lax'> <button type='button'>patvirtinti</button> </td>";
         echo "</tr>";
       }
       ?>
