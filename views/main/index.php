@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 
-
 <body>
     <div id="start">
 
@@ -25,6 +24,11 @@
             </div>
 
         </div>
+        <div class="split mid">
+            <div class="centered">
+
+            </div>
+        </div>
 
         <div class="split right">
             <div class="centered">
@@ -34,7 +38,6 @@
             </div>
         </div>
     </div>
-
 
 
 
@@ -90,11 +93,11 @@
 
 </body>
 <script>
-    document.querySelector("#start > div.split.left").addEventListener("click", function(e) {
+    document.querySelector("#start > div.split.left").addEventListener("click", function (e) {
 
         document.getElementById("start").remove()
     });
-    document.querySelector("#start > div.split.right").addEventListener("click", function(e) {
+    document.querySelector("#start > div.split.right").addEventListener("click", function (e) {
         window.open("https://desolate-reaches-61237.herokuapp.com/admin/index.php?page=1", "_self");
         // document.getElementById("start").remove()
     });
