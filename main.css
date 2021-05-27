@@ -4,7 +4,23 @@ body {
     color: #222222;
     font-family: arial, helvetica, "sans-serif";
 }
+.admin-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "table-container map-table";
+}
 
+.table-container { grid-area: table-container; }
+
+.map-table { grid-area: map-table; }
+
+#main-container{
+
+    padding: 20px 0;
+}
 #main-container-order {
     padding: 0 20px;
     display: grid;
