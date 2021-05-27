@@ -18,7 +18,7 @@
             <div class="centered">
 
 
-                <h1 class="mainDesc">Užsakyti vieta</h1>
+                <h1 class="mainDesc">Užsakyti vietą</h1>
 
 
             </div>

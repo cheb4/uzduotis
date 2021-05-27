@@ -48,15 +48,7 @@
                   <td><?php echo $oneItem['comment']; ?></td>
                 </tr>
                 </tr>
-                <!-- <tr>
-              <th>trinti</th>
-              <td>
-                <form method="POST" action=''>
-                  <input type="submit" name="button1" value="Istrinti">
-
-                </form>
-              </td>
-            </tr> -->
+      
 
                 </table>
                 <?php
