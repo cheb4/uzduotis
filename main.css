@@ -7,13 +7,22 @@ body {
 
 #main-container {
     padding: 0 20px;
+    display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "forma map";
 }
 
 #header {
     padding: 20px 0;
 }
 
-#order-form {}
+#order-form {
+     box-sizing: border-box;
+ 
+}
 
 #order-form button {
     width: 400px;
@@ -83,7 +92,6 @@ table th a {
 }
 
 /*  */
-
 .split {
     height: 100%;
     width: 50%;
@@ -96,16 +104,27 @@ table th a {
 
 .left {
     left: 0;
+      /* float: left; */
+
     background-color: #0b6b15;
+    /* width: 25%; */
 
 }
-.center{
-    
+.mid{
+  /* width: 50%; */
+ right: 200px; 
+    /* float: left; */
+    color: red;
+
+
 }
 
 .right {
     right: 0;
     background-color: #0b616b;
+      /* float: left; */
+
+/* width: 25%; */
 }
 
 .centered {
@@ -121,4 +140,5 @@ table th a {
     border-radius: 50%;
 }
 
-;
+.forma { grid-area: forma; }
+.map { grid-area: map; }
