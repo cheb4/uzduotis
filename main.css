@@ -4,18 +4,23 @@ body {
     color: #222222;
     font-family: arial, helvetica, "sans-serif";
 }
+
 .admin-container {
-  display: grid;
-  grid-template-columns: 0.5fr 2fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "table-container map-table";
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "table-container map-table";
 }
 
-.table-container { grid-area: table-container; }
+.table-container {
+    grid-area: table-container;
+}
 
-.map-table { grid-area: map-table; }
+.map-table {
+    grid-area: map-table;
+}
 
 
 .details-container {
@@ -24,25 +29,30 @@ body {
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "details details-map";
-  }
-  
-  .details { grid-area: details; }
-  
-  .details-map{ grid-area: details-map; }
+        "details details-map";
+}
 
-#main-container{
+.details {
+    grid-area: details;
+}
+
+.details-map {
+    grid-area: details-map;
+}
+
+#main-container {
 
     padding: 20px 0;
 }
+
 #main-container-order {
     padding: 0 20px;
     display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "forma map";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "forma map";
 }
 
 #header {
@@ -50,8 +60,8 @@ body {
 }
 
 #order-form {
-     /* box-sizing: border-box; */
- 
+    /* box-sizing: border-box; */
+
 }
 
 #order-form button {
@@ -116,13 +126,8 @@ table th a {
     color: #4879af;
 }
 
-.mainDesc {
-    color: white;
-    font-size: 3em;
-}
-
 /*  */
-.split {
+/* .split {
     height: 100%;
     width: 50%;
     position: fixed;
@@ -130,32 +135,24 @@ table th a {
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-}
+} */
 
-.left {
-    left: 0;
-      /* float: left; */
+/* .left {
+    /* left: 0; */
+/* float: left; */
 
-    background-color: #0b6b15;
-    /* width: 25%; */
-
-}
-.mid{
-  /* width: 50%; */
- right: 200px; 
-    /* float: left; */
-    color: red;
+/* background-color: #0b6b15; */
+/* width: 25%; */
 
 
-}
 
-.right {
+/* .right {
     right: 0;
     background-color: #0b616b;
       /* float: left; */
 
 /* width: 25%; */
-}
+
 
 .centered {
     position: absolute;
@@ -170,5 +167,48 @@ table th a {
     border-radius: 50%;
 }
 
-.forma { grid-area: forma; }
-.map { grid-area: map; }
+.forma {
+    grid-area: forma;
+}
+
+.map {
+    grid-area: map;
+}
+
+/* pirmas psl */
+.pagrindinis {
+    display: grid;
+    grid-template-columns: 0.6 1.7fr 0.6fr;
+    /* grid-template-rows: 2fr; */
+    gap: 0px 0px;
+    grid-template-areas:
+        "register map list";
+}
+
+.register {
+    grid-area: register;
+
+    background-color: #0b6b15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.map {
+    grid-area: map;
+}
+
+.list {
+    grid-area: list;
+
+    background-color: #0b616b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDesc {
+    color: white;
+    font-size: 3em;
+}

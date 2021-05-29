@@ -26,7 +26,7 @@ return array(
     'master' => 'master/display',
     'insert' => 'main/insert',
     'delete' => 'main/delete',
-    'reg' => 'main/display',
+    'register' => 'main/display',
     '' => 'start/display',
 
 
