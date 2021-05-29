@@ -27,7 +27,7 @@ return array(
     'insert' => 'main/insert',
     'delete' => 'main/delete',
     '' => 'main/display',
-    // '' => 'start/display',
+    'reg' => 'start/display',
 
 
 );
