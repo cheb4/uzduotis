@@ -26,8 +26,8 @@ return array(
     'master' => 'master/display',
     'insert' => 'main/insert',
     'delete' => 'main/delete',
-    '' => 'main/display',
-    'reg' => 'start/display',
+    'reg' => 'main/display',
+    '' => 'start/display',
 
 
 );
