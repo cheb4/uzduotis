@@ -4,7 +4,8 @@
 <head>
 <?php
 
-include ROOT . '/db/Db.php';
+
+
 
 // $db = getConnection();
 
@@ -51,6 +52,9 @@ include ROOT . '/db/Db.php';
             </div>
 
             <div class="map">
+                
+
+        
                 <!-- <div class="mapouter">
                     <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
                             src="https://maps.google.com/maps?q=Joni%C5%A1kis,%20%C5%BEemes%20ukio%20mokykla&t=k&z=17&ie=UTF8&iwloc=&output=embed"
