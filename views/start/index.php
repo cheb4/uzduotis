@@ -6,7 +6,7 @@
 
 include ROOT . '/db/Db.php';
 
-$db = Db::getConnection();
+// $db = getConnection();
 
 
 // function get_all_locations(){
