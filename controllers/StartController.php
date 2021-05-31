@@ -8,7 +8,7 @@ class StartController
 {
     public function displayEverything()
     {
-        $stuff = Start::getAllData();
+        // $stuff = Start::getAllData();
 
 
         require_once(ROOT . '/views/start/index.php');
