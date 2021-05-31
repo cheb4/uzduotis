@@ -11,14 +11,14 @@ class StartController
         // $stuff = Start::getAllData();
 
 
-        require_once(ROOT . '/views/start/index.php');
+        // require_once(ROOT . '/views/start/index.php');
     }
 
     public function actionDisplay()
     {
-        $this->displayEverything();
+        // $this->displayEverything();
         // $allResult = Start::getAllData();
-        // require_once(ROOT . '/views/start/index.php');
+        require_once(ROOT . '/views/start/index.php');
         return true;
     }
 

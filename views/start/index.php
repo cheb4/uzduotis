@@ -55,7 +55,7 @@
                 
 
         
-                <!-- <div class="mapouter">
+                <div class="mapouter">
                     <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
                             src="https://maps.google.com/maps?q=Joni%C5%A1kis,%20%C5%BEemes%20ukio%20mokykla&t=k&z=17&ie=UTF8&iwloc=&output=embed"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
@@ -77,7 +77,7 @@
                             }
                         </style>
                     </div>
-                </div> -->
+                </div>
             </div>
 
             <div class="list">
@@ -87,18 +87,18 @@
     </body>
     <script>
 // pradzia
-function initMap() {
-        const myLatLng = { lat: -25.363, lng: 131.044 };
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
-          center: myLatLng,
-        });
-        new google.maps.Marker({
-          position: myLatLng,
-          map,
-          title: "Hello World!",
-        });
-      }
+// function initMap() {
+//         const myLatLng = { lat: -25.363, lng: 131.044 };
+//         const map = new google.maps.Map(document.getElementById("map"), {
+//           zoom: 4,
+//           center: myLatLng,
+//         });
+//         new google.maps.Marker({
+//           position: myLatLng,
+//           map,
+//           title: "Hello World!",
+//         });
+//       }
 
 
 // pabaiga
