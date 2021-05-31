@@ -2,7 +2,39 @@
 <html lang="en">
 
 <head>
+<?php
 
+include ROOT . '/db/Db.php';
+
+$db = Db::getConnection();
+
+
+// function get_all_locations(){
+//     $con=mysqli_connect ("localhost", 'root', '','demo');
+//     if (!$con) {
+//         die('Not connected : ' . mysqli_connect_error());
+//     }
+//     // update location with location_status if admin location_status.
+//     $sqldata = mysqli_query($con,"
+// select id ,lat,lng,description,location_status as isconfirmed
+// from locations
+//   ");
+
+//     $rows = array();
+//     while($r = mysqli_fetch_assoc($sqldata)) {
+//         $rows[] = $r;
+
+//     }
+//   $indexed = array_map('array_values', $rows);
+//   //  $array = array_filter($indexed);
+
+//     echo json_encode($indexed);
+//     if (!$rows) {
+//         return null;
+//     }
+// }
+
+?>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
