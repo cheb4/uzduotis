@@ -7,7 +7,7 @@
 class StartController
 {
     // public function displayEverything()
-    {
+    // {
         // $stuff = Start::getAllData();
 
 
@@ -30,5 +30,5 @@ class StartController
     
 
 
-// }
+}
 
