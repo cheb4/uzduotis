@@ -5,42 +5,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Order Form</title>
+    <title>Form</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPSIXnA8K7gndiwijS1Iy8q9c3L3HLfHo&callback=initMap&libraries=&v=weekly"
+          type="text/javascript"></script>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <!-- <div id="start">
-
-
-        <div class="split left">
-            <div class="centered">
-
-
-                <h1 class="mainDesc">Užsakyti vietą</h1>
-
-
-            </div>
-
-        </div>
-        <div class="split mid">
-            <div class="centered">
-
-            </div>
-        </div>
-
-        <div class="split right">
-            <div class="centered">
-
-                <h1 class="mainDesc">Užsakytų vietų sąrašas</h1>
-
-            </div>
-        </div>
-    </div> -->
-
-
-
     <div id="main-container-order">
         <div class="forma">
             <div id="header">
@@ -87,11 +59,52 @@
             </form>
         </div>
         <div class="map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Joni%C5%A1kis,%20%C5%BEemes%20ukio%20mokykla&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net">custom google map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
-    </div>
+                        <div id="locationReg" style="width: 500px; height: 500px;"></div>
+        </div>
     </div>
 
 </body>
+    <script>
+// prdzia
+var locations = [
+      ['pirmas', 56.241929104940375, 23.634707957688992],
+      ['antras', 56.241718628143777, 23.634707957688992],
+      ['trecias', 56.2415081513472, 23.634707957688992],
+      ['ketvirtas',56.2412976745506, 23.634707957688992 ],
+      ['penktas', 56.241087197754, 23.634707957688992],
+      ['sestas',56.241929104940375, 23.635713017406772 ],
+      ['septintas',56.241718628143777, 23.635713017406772 ],
+      ['astuntas', 56.2415081513472, 23.635713017406772],
+      ['devintas',56.2412976745506, 23.635713017406772 ],
+      ['desimtas',56.241087197754, 23.635713017406772 ],
+    ];
 
+    var map = new google.maps.Map(document.getElementById('locationReg'), {
+      zoom: 17.5,
+      center: new google.maps.LatLng(56.24168095734993, 23.634612266633244),
+      mapTypeId: 'satellite'
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {  
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }
+
+// pabaiga
+
+    </script>
 
 </html>
