@@ -124,8 +124,6 @@ var locations = [
     var marker, i;
 // random 
 
-// function random_item(items){
-// return items[Math.floor(Math.random()*items.length)];
 
 var randPin = Math.floor(Math.random() * (locations.length - 0 + 1)) + 0;
 

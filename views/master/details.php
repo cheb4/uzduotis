@@ -98,11 +98,60 @@
             ?>
         </div>
     <div class="details-map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Joni%C5%A1kis,%20%C5%BEemes%20ukio%20mokykla&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net">custom google map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
+    <div id="locationReg" style="width: 700px; height: 700px;"></div>
+
     </div>
 
     </div>
 </body>
+<script>
+// prdzia
+var locations = [
+      ['pirmas', 56.241929104940375, 23.634707957688992],
+      ['antras', 56.241718628143777, 23.634707957688992],
+      ['trecias', 56.2415081513472, 23.634707957688992],
+      ['ketvirtas',56.2412976745506, 23.634707957688992 ],
+      ['penktas', 56.241087197754, 23.634707957688992],
+      ['sestas',56.241929104940375, 23.635713017406772 ],
+      ['septintas',56.241718628143777, 23.635713017406772 ],
+      ['astuntas', 56.2415081513472, 23.635713017406772],
+      ['devintas',56.2412976745506, 23.635713017406772 ],
+      ['desimtas',56.241087197754, 23.635713017406772 ],
+    ];
+
+    var map = new google.maps.Map(document.getElementById('locationReg'), {
+      zoom: 17.5,
+      center: new google.maps.LatLng(56.24168095734993, 23.634612266633244),
+      mapTypeId: 'satellite'
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+// random 
+
+
+var randPin = Math.floor(Math.random() * (locations.length - 0 + 1)) + 0;
+
+
+ 
+      marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[randPin][1], locations[randPin][2]),
+        map: map
+       });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, randPin) {
+        return function() {
+          infowindow.setContent(locations[randPin][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, randPin));
+  
+
+// pabaiga
+
+    </script>
+
 
 
 </html>
