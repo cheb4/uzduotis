@@ -58,7 +58,7 @@
                 <button type="submit">Pateikti</button>
             </form>
         </div>
-        <div class="map-order">
+        <div class="map">
             <div id="locationReg" style="width: 700px; height: 700px;"></div>
         </div>
     </div>
