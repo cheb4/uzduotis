@@ -4,23 +4,23 @@
 
 
 
-class StartController
-{
-    public function displayEverything()
-    {
-        // $stuff = Start::getAllData();
+// class StartController
+// {
+//     public function displayEverything()
+//     {
+//         // $stuff = Start::getAllData();
 
 
-        // require_once(ROOT . '/views/start/index.php');
-    }
+//         // require_once(ROOT . '/views/start/index.php');
+//     }
 
-    public function actionDisplay()
-    {
-        // $this->displayEverything();
-        // $allResult = Start::getAllData();
-        require_once(ROOT . '/views/start/index.php');
-        return true;
-    }
+//     public function actionDisplay()
+//     {
+//         // $this->displayEverything();
+//         // $allResult = Start::getAllData();
+//         require_once(ROOT . '/views/start/index.php');
+//         return true;
+//     }
 
 
 
