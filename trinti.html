@@ -3,23 +3,27 @@
 <head> 
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
   <title>Google Maps Multiple Markers</title> 
-  <script    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPSIXnA8K7gndiwijS1Iy8q9c3L3HLfHo&callback=initMap&libraries=&v=weekly"
-  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPSIXnA8K7gndiwijS1Iy8q9c3L3HLfHo&callback=initMap&libraries=&v=weekly"
           type="text/javascript"></script>
 </head> 
 <body>
-  <div id="map" style="width: 600px; height: 600px;"></div>
+  <div id="location" style="width: 600px; height: 600px;"></div>
 
   <script type="text/javascript">
     var locations = [
-      ['testas', 56.241929104940375, 23.634841925167038],
-      ['vienas Beach', 56.241418628148786, 23.635365036271786],
-      ['asd Beach', 56.241287462874325, 23.634707957688992],
-      ['Manladsy Beach', 56.24196809941555, 23.63538417448294],
-      
+      ['pirmas', 56.241929104940375, 23.634707957688992],
+      ['antras', 56.241718628143777, 23.634707957688992],
+      ['trecias', 56.2415081513472, 23.634707957688992],
+      ['ketvirtas',56.2412976745506, 23.634707957688992 ],
+      ['penktas', 56.241087197754, 23.634707957688992],
+      ['sestas',56.241929104940375, 23.635713017406772 ],
+      ['septintas',56.241718628143777, 23.635713017406772 ],
+      ['astuntas', 56.2415081513472, 23.635713017406772],
+      ['devintas',56.2412976745506, 23.635713017406772 ],
+      ['desimtas',56.241087197754, 23.635713017406772 ],
     ];
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+    var map = new google.maps.Map(document.getElementById('location'), {
       zoom: 17.5,
       center: new google.maps.LatLng(56.24168095734993, 23.634612266633244),
       mapTypeId: 'satellite'
