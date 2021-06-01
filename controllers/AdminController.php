@@ -7,6 +7,7 @@ include_once ROOT. '/models/Admin.php';
 class AdminController
 {
     
+// gauna viska ir perduoda i action display
 
     public function displayEverything($sql)
     {
@@ -16,6 +17,7 @@ class AdminController
 
         require_once(ROOT . '/views/admin/index.php');
     }
+// action display kada gauna nuoruoda uzkrauna viska 
 
     public function actionDisplay()
     {

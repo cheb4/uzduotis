@@ -7,7 +7,7 @@ include_once ROOT. '/models/Master.php';
 class MasterController
 {
     
-
+// gauna viska ir perduoda i action display
     public function displayEverything($sql)
     {
         $allResult = Master::getAllData();
@@ -16,7 +16,7 @@ class MasterController
 
         require_once(ROOT . '/views/master/index.php');
     }
-
+// action display kada gauna nuoruoda uzkrauna viska 
     public function actionDisplay()
     {
         $this->displayEverything("SELECT * FROM customers");

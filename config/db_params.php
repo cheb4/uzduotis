@@ -1,6 +1,7 @@
 <?php
-// $clearDbUrl = parse_url(getenv("mysql://b32e344c938404:61db3fa4@us-cdbr-iron-east-01.cleardb.net/heroku_7fe484b29314a31?reconnect=true"));
 
+// $clearDbUrl = parse_url(getenv("mysql://b32e344c938404:61db3fa4@us-cdbr-iron-east-01.cleardb.net/heroku_7fe484b29314a31?reconnect=true"));
+ 
 $clearDbUrl = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
 return array(

@@ -2,6 +2,9 @@
 
 // include ROOT . '/db/Db.php';
 
+// 
+// bandymas kad veiktu zemelapis, dabar sugedes
+// 
 
 
 // class Start
@@ -31,4 +34,4 @@
 
 //         return $itemList;
 //     }
-} 
+// } 
