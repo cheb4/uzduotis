@@ -45,6 +45,9 @@
     </body>
     <script>
 // prdzia
+var trash = <?php echo $stuff ?>
+console.log(trash)
+
 var locations = [
       ['pirmas', 56.241929104940375, 23.634707957688992],
       ['antras', 56.241718628143777, 23.634707957688992],

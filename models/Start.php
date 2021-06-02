@@ -32,6 +32,7 @@ class Start
             $i++;
         }
 
-        return $itemList;
+        // return $itemList;
+        return json_encode($itemList);
     }
 } 
