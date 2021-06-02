@@ -45,7 +45,7 @@
     </body>
     <script>
 // prdzia
-var trash = <?php echo $stuff ?>
+var trash = <?php echo $stuff; ?>;
 console.log(trash)
 
 var locations = [
