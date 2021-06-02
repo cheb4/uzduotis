@@ -93,7 +93,7 @@ class AdminController
     }
 
 // sorting ends here
-
+ 
 
  public function getDetailsPage()
     {
