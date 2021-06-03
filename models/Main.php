@@ -45,7 +45,7 @@ class Main
     }
 
 
-    public static getFreeSpace()
+    public static function getFreeSpace()
     {
         $database = Db::getConnection();
         $itemList = array();
