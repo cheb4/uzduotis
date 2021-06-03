@@ -31,17 +31,17 @@ foreach ($route as $uriPattern => $path) {
         $controllerName = array_shift($segments) . 'Controller';
         $controllerName = ucfirst($controllerName);
 
-        echo "<br>$controllerName<br>";
+        // echo "<br>$controllerName<br>";
         $actionName = 'action' . ucfirst((array_shift($segments)));
-        echo "$actionName<br>";
+        // echo "$actionName<br>";
 
 
         $controllerFile = 'controllers/' . $controllerName . '.php';
-        echo "$controllerFile<br>";
+        // echo "$controllerFile<br>";
         if (file_exists($controllerFile)) {
             include_once($controllerFile);
         }
-        echo "$controllerFile";
+        // echo "$controllerFile";
 
         $controllerObject = new $controllerName;
         
