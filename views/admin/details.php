@@ -38,10 +38,6 @@
                   <td><?php echo $oneItem['city']; ?></td>
                 </tr>
                 <tr>
-                  <th>telefono numeris</th>
-                  <td><?php echo $oneItem['phone']; ?></td>
-                </tr>
-                <tr>
                   <th>komentaras</th>
                   <td><?php echo $oneItem['comment']; ?></td>
                 </tr>

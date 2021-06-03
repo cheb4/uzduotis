@@ -108,7 +108,7 @@ class MasterController
         $detailNuber = $this->getDetailsPage();
         if (is_numeric($detailNuber)) {
         $oneItem = Master::getByID($detailNuber);
-
+        $oneMap = Admin::getByIDone($detailNuber);
 
         require_once(ROOT . '/views/master/details.php');
         }else{

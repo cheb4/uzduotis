@@ -101,4 +101,31 @@ class Master
             return $item;
         }
     }
+
+        public static function getByIDone($id)
+    {
+        $id = intval($id);
+        if ($id) {
+            $db = Db::getConnection();
+            $result = $db->query('select id, latitude, longitude, location_status from customers WHERE id=' . $id);
+            // $result->setFetchMode(PDO::FETCH_ASSOC);
+
+            // $item = $result->fetch();
+
+            // return $item;
+                 $i = 0;
+        $itemList = array();
+
+        while ($row = $result->fetch(PDO::FETCH_BOTH)) {
+            $itemList[$i]['id'] = $row['id'];
+            $itemList[$i]['latitude'] = $row['latitude'];
+            $itemList[$i]['longitude'] = $row['longitude'];
+            $itemList[$i]['location_status'] = $row['location_status'];
+            $i++;
+        }
+        return json_encode($itemList);   
+        }
+    }
+
+
 }
