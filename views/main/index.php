@@ -100,9 +100,9 @@ console.log(locations)
         // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
         label:{text:locations[i]["id"],
-                 color: "#gray",
+                 color: "white",
                  fontWeight: "bold",
-                 fontSize:"25px"},
+                 fontSize:"20px"},
         map: map
       });
 
