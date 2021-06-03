@@ -29,7 +29,6 @@ class Main
     {
         $database = Db::getConnection();
         $itemList = array();
-// clients
 
           $result = $database->query('select id, latitude, longitude, location_status from customers');
         $i = 0;
@@ -37,12 +36,6 @@ class Main
 
         while ($row = $result->fetch(PDO::FETCH_BOTH)) {
             $itemList[$i]['id'] = $row['id'];
-            // $itemList[$i]['name'] = $row['name'];
-            // $itemList[$i]['surname'] = $row['surname'];
-            // $itemList[$i]['city'] = $row['city'];
-            // $itemList[$i]['orderNum'] = $row['orderNum'];
-            // $itemList[$i]['phone'] = $row['phone'];
-            // $itemList[$i]['comment'] = $row['comment'];
             $itemList[$i]['latitude'] = $row['latitude'];
             $itemList[$i]['longitude'] = $row['longitude'];
             $itemList[$i]['location_status'] = $row['location_status'];
@@ -51,6 +44,25 @@ class Main
         return json_encode($itemList);
     }
 
+
+    public static getFreeSpace()
+    {
+        $database = Db::getConnection();
+        $itemList = array();
+
+        $result = $database->query('select id, location_status from customers where location_status = 0');
+        $i = 0;
+        $itemList = array();
+
+        while ($row = $result->fetch(PDO::FETCH_BOTH)) {
+            $itemList[$i]['id'] = $row['id'];
+            $itemList[$i]['location_status'] = $row['location_status'];
+            $i++;
+        }
+
+        return $itemList;
+
+    }
 
 
 }

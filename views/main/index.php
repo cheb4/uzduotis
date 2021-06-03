@@ -39,12 +39,10 @@
                 <div class="form-field">
                     <label>Vieta</label>
                     <select name="orderSize">
-                        <option value="1">Nr 1</option>
-                        <option value="2">Nr 2</option>
-                        <option value="3">Nr 3</option>
-                        <option value="4">Nr 4</option>
-                        <option value="5">Nr 5</option>
-                        <option value="6">Nr 6</option>
+                        <?php foreach ($freeSpace as $space) {
+                            echo  "<option value=".$space["id"].">Nr".$space["id"]."</option>";
+                            # code...
+                        }?>
                     </select>
                 </div>
                 <div class="form-field">

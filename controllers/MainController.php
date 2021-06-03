@@ -11,7 +11,7 @@ class MainController
     {
 
         $mainMapData = Main::getAllMapData();
-        
+        $freeSpace = Main::getFreeSpace()
         
         require_once(ROOT . '/views/main/index.php');
         return true;
