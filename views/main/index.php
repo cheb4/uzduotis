@@ -102,7 +102,7 @@ console.log(locations)
         label:{text:locations[i]["id"],
                  color: "#C70E20",
                  fontWeight: "bold",
-                 fontSize:"15px"}
+                 fontSize:"15px"},
         map: map
       });
 
