@@ -34,7 +34,7 @@
       <?php foreach ($itemList as $item) {
 
         echo "<tr>";
-        echo "<td class='tg-0lax'>" . '<a href="https://desolate-reaches-61237.herokuapp.com/master-' . $item['id'] . '">' . $item['id'] . " </td>";
+        echo "<td class='tg-0lax'>" . $item['id'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['name'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['surname'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['city'] . " </td>";
