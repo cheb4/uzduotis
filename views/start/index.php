@@ -77,7 +77,12 @@ console.log(locations)
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[i]["id"]);
+                  if(locations[i]["location_status"] != '1'){
+            content = "Laisva vieta Nr " + locations[i]["id"]
+        }else{
+            content = "uzimta vieta Nr " + locations[i]["id"]
+        }
+          infowindow.setContent(content);
           infowindow.open(map, marker);
         }
       })(marker, i));
