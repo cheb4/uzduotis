@@ -36,7 +36,7 @@ class Admin
     {
         $db = Db::getConnection();
         $results_per_page = PER_PAGE;
-        $sql = 'SELECT * FROM customers';
+        $sql = 'SELECT * FROM customers where location_status = 1';
         $result = $db->query($sql);
         $number_of_results = $result->rowcount();
         $number_of_pages = ceil($number_of_results / $results_per_page);
@@ -71,7 +71,7 @@ class Admin
     {
         $db = Db::getConnection();
         $results_per_page = PER_PAGE;
-        $sql = 'SELECT * FROM customers';
+        $sql = 'SELECT * FROM customers where location_status = 1';
         $result = $db->query($sql);
         $number_of_results = $result->rowcount();
         $number_of_pages = ceil($number_of_results / $results_per_page);
