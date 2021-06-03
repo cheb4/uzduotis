@@ -39,19 +39,20 @@
                 href="https://desolate-reaches-61237.herokuapp.com/admin/orderNum_asc/index.php?page=1">↑</a> <a
                 href="https://desolate-reaches-61237.herokuapp.com/admin/orderNum_desc/index.php?page=1">↓</a> </th> -->
         <th class="tg-0lax">miestas <a href="https://desolate-reaches-61237.herokuapp.com/admin/city_asc/index.php?page=1">↑</a> <a href="https://desolate-reaches-61237.herokuapp.com/admin/city_desc/index.php?page=1">↓</a> </th>
-            <!-- <th class="tg-0lax">telefono numeris</th> -->
+            <th class="tg-0lax">Išsamiau</th>
             <!-- <th class="tg-baqh">komentaras</th> -->
           </tr>
           <?php foreach ($itemList as $item) {
 
         echo "<tr>";
-        echo "<td class='tg-0lax'>" . '<a href="https://desolate-reaches-61237.herokuapp.com/admin-' . $item['id'] . '">' . $item['id'] . " </td>";
+        echo "<td class='tg-0lax'>" . $item['id'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['name'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['surname'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['city'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['orderNum'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
+        echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/admin-" . $item['id'] . "> <input type='submit' value='patikrinti'/> </form></td>";
         echo "</tr>";
       }
       ?>
