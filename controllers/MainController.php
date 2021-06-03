@@ -17,7 +17,7 @@ class MainController
 
     public function actionDisplay()
     {
-        $this->runStuff()
+        $this->runStuff();
        require_once(ROOT . '/views/main/index.php');
         return true;
     }
