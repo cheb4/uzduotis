@@ -34,7 +34,9 @@ class MainController
             $orderSize = $_POST["orderSize"];
             $phoneNumber = $_POST["phoneNumber"];
             $comment = $_POST["comment"];
-            $sql = "INSERT INTO `customers` (`id`, `name`, `surname`, `city`, `orderNum`, `phone`, `comment`) VALUES" . " (NULL, '$name', '$surname', '$town', '$orderSize', '$phoneNumber', '$comment');";
+            // $sql = "INSERT INTO `customers` (`id`, `name`, `surname`, `city`, `orderNum`, `phone`, `comment`) VALUES" . " (NULL, '$name', '$surname', '$town', '$orderSize', '$phoneNumber', '$comment');";
+
+            $sql = "update customers set name='".$name."',surname='".$surname."',city='".$town."',phone='".$phoneNumber."',comment='".$comment."', location_status='1' where id =".$orderSize.";"
 
             Main::insertDataToDatabase($sql);
             header('location: https://desolate-reaches-61237.herokuapp.com/');

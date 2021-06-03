@@ -41,7 +41,6 @@
                     <select name="orderSize">
                         <?php foreach ($freeSpace as $space) {
                             echo  "<option value=".$space["id"].">Nr".$space["id"]."</option>";
-                            # code...
                         }?>
                     </select>
                 </div>
