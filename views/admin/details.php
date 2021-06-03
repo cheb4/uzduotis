@@ -22,7 +22,7 @@
             <li><a href="/order-form">Užsakymo forma</a></li>
             <li><a href=/admin/index.php?page=1>Užsakymų sąrašas</a> </li> </ul> </div> </div> </body> </html> <table>
                 <tr>
-                  <th>id</th>
+                  <th>Nr</th>
                   <td><?php echo $oneItem['id']; ?></td>
                 </tr>
                 <tr>
@@ -36,10 +36,6 @@
                 <tr>
                   <th>Miestas</th>
                   <td><?php echo $oneItem['city']; ?></td>
-                </tr>
-                <tr>
-                  <th>uzsakymo vieta</th>
-                  <td><?php echo $oneItem['orderNum']; ?></td>
                 </tr>
                 <tr>
                   <th>telefono numeris</th>
@@ -100,18 +96,26 @@
 </body>
 <script>
 // prdzia
-var locations = [
-      ['pirmas', 56.241929104940375, 23.634707957688992],
-      ['antras', 56.241718628143777, 23.634707957688992],
-      ['trecias', 56.2415081513472, 23.634707957688992],
-      ['ketvirtas',56.2412976745506, 23.634707957688992 ],
-      ['penktas', 56.241087197754, 23.634707957688992],
-      ['sestas',56.241929104940375, 23.635713017406772 ],
-      ['septintas',56.241718628143777, 23.635713017406772 ],
-      ['astuntas', 56.2415081513472, 23.635713017406772],
-      ['devintas',56.2412976745506, 23.635713017406772 ],
-      ['desimtas',56.241087197754, 23.635713017406772 ],
-    ];
+      var locations = <?php echo $oneMap; ?>;
+      console.log(locations)
+
+      var red_icon =  'https://maps.google.com/mapfiles/ms/icons/red-dot.png' ;
+      var purple_icon =  'https://maps.google.com/mapfiles/ms/icons/purple-dot.png' ;
+
+
+
+// var locations = [
+//       ['pirmas', 56.241929104940375, 23.634707957688992],
+//       ['antras', 56.241718628143777, 23.634707957688992],
+//       ['trecias', 56.2415081513472, 23.634707957688992],
+//       ['ketvirtas',56.2412976745506, 23.634707957688992 ],
+//       ['penktas', 56.241087197754, 23.634707957688992],
+//       ['sestas',56.241929104940375, 23.635713017406772 ],
+//       ['septintas',56.241718628143777, 23.635713017406772 ],
+//       ['astuntas', 56.2415081513472, 23.635713017406772],
+//       ['devintas',56.2412976745506, 23.635713017406772 ],
+//       ['desimtas',56.241087197754, 23.635713017406772 ],
+//     ];
 
     var map = new google.maps.Map(document.getElementById('locationReg'), {
       zoom: 17.5,
@@ -122,25 +126,32 @@ var locations = [
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
-// random 
-
-
-var randPin = Math.floor(Math.random() * (locations.length - 0 + 1)) + 0;
-
-
- 
+    var content;
+    for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[randPin][1], locations[randPin][2]),
+        position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
+        // melyna laisva
+        icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
+        label:{text:locations[i]["id"],
+                 color: "white",
+                 fontWeight: "bold",
+                 fontSize:"15px"},
         map: map
-       });
+      });
 
-      google.maps.event.addListener(marker, 'click', (function(marker, randPin) {
+      
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[randPin][0]);
+        if(locations[i]["location_status"] != '1'){
+            content = "Laisva vieta Nr " + locations[i]["id"]
+        }else{
+            content = "uzimta vieta Nr " + locations[i]["id"]
+        }
+          infowindow.setContent(content);
           infowindow.open(map, marker);
         }
-      })(marker, randPin));
-  
+      })(marker, i));
+    }
 
 // pabaiga
 
