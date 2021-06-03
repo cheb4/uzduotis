@@ -94,7 +94,8 @@ for ($page=1;$page<=$pageNum;$page++) {
 //       ['desimtas',56.241087197754, 23.635713017406772 ],
 //     ];
 
-    var map = new google.maps.Map(document.getElementById('locationReg'), {
+  
+var map = new google.maps.Map(document.getElementById('locationReg'), {
       zoom: 17.5,
       center: new google.maps.LatLng(56.24168095734993, 23.634612266633244),
       mapTypeId: 'satellite'
@@ -103,17 +104,28 @@ for ($page=1;$page<=$pageNum;$page++) {
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
-
+    var content;
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
+        // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
+        label:{text:locations[i]["id"],
+                 color: "white",
+                 fontWeight: "bold",
+                 fontSize:"15px"},
         map: map
       });
 
+      
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[i][0]);
+        if(locations[i]["location_status"] != '1'){
+            content = "Laisva vieta Nr " + locations[i]["id"]
+        }else{
+            content = "uzimta vieta Nr " + locations[i]["id"]
+        }
+          infowindow.setContent(content);
           infowindow.open(map, marker);
         }
       })(marker, i));
