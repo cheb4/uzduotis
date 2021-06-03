@@ -52,7 +52,7 @@
         // echo "<td class='tg-0lax'>" . $item['orderNum'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
         // echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
-        echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/admin-" . $item['id'] . "> <input type='submit' value='patikrinti'/> </form></td>";
+        echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/admin-" . $item['id'] . "> <input type='submit' value='išsamiau'/> </form></td>";
         echo "</tr>";
       }
       ?>
