@@ -226,3 +226,7 @@ table th a {
     color: white;
     font-size: 3em;
 }
+
+.tg-0lax{
+    text-transform: capitalize;
+}

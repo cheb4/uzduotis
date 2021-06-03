@@ -38,7 +38,6 @@
         echo "<td class='tg-0lax'>" . $item['name'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['surname'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['city'] . " </td>";
-
         echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
         echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/master-" . $item['id'] . "> <input type='submit' value='patikrinti'/> </form></td>";
