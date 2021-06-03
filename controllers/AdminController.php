@@ -111,7 +111,7 @@ class AdminController
         $detailNuber = $this->getDetailsPage();
         if (is_numeric($detailNuber)) {
         $oneItem = Admin::getByID($detailNuber);
-        $oneMap = Admin::getByIDone();
+        $oneMap = Admin::getByIDone($detailNuber);
 
 
         require_once(ROOT . '/views/admin/details.php');
