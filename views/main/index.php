@@ -26,15 +26,15 @@
             <form id="order-form" action="/insert" method="POST">
                 <div class="form-field">
                     <label>Vardas</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" pattern="[A-Za-zĄąĘęĖėĮįŠšŪūČč]+" placeholder="Vardas" >
                 </div>
                 <div class="form-field">
                     <label>Pavarde</label>
-                    <input type="text" name="surname">
+                    <input type="text" name="surname" pattern="[A-Za-zĄąĘęĖėĮįŠšŪūČč]+" placeholder="Pavardė">
                 </div>
                 <div class="form-field">
                     <label>Miestas</label>
-                    <input type="text" name="town">
+                    <input type="text" name="town" pattern="[A-Za-zĄąĘęĖėĮįŠšŪūČč]+" placeholder="Miestas">
                 </div>
                 <div class="form-field">
                     <label>Vieta</label>

@@ -19,7 +19,7 @@
       <div id="main-container">
         <div id="header">
           <ul class="nav">
-            <li><a href="/order-form">Užsakymo forma</a></li>
+            <li><a href="/order-form">Administravimas</a></li>
             <li><a href=/master/index.php?page=1>Gryžti atgal</a> </li> </ul> </div> </div> </body> </html> <table>
                 <tr>
                   <th>id</th>
@@ -37,10 +37,7 @@
                   <th>Miestas</th>
                   <td><?php echo $oneItem['city']; ?></td>
                 </tr>
-                <tr>
-                  <th>uzsakymo vieta</th>
-                  <td><?php echo $oneItem['orderNum']; ?></td>
-                </tr>
+
                 <tr>
                   <th>telefono numeris</th>
                   <td><?php echo $oneItem['phone']; ?></td>
