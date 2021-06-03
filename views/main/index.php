@@ -106,6 +106,7 @@ console.log(locations)
         map: map
       });
 
+      
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
         if(locations[i]["location_status"] != '1'){
