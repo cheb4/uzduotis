@@ -34,6 +34,7 @@ class Start
             $itemList[$i]['location_status'] = $row['location_status'];
             $i++;
         }
-        return json_encode($itemList);
+        // return json_encode($itemList);
+        return $itemList;
     }
 } 
