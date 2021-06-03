@@ -110,6 +110,7 @@ class MasterController
         $oneItem = Master::getByID($detailNuber);
         $oneMap = Master::getByIDone($detailNuber);
 
+        
         require_once(ROOT . '/views/master/details.php');
         }else{
             require_once(ROOT . '/views/master/error.php');
