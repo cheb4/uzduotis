@@ -82,7 +82,9 @@
               $base = getConnection();
 
 
-              $sql = "DELETE FROM `customers` WHERE id = " . $data . ";";
+              // $sql = "DELETE FROM `customers` WHERE id = " . $data . ";";
+
+              $sql = "update customers set name='nera', surname='nera', orderNum='nera',phone='nera',comment='nera', location_status='0' where id = 3;";
 
               $result = $base->query($sql);
             }
