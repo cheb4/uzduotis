@@ -15,7 +15,7 @@ class Start
         $itemList = array();
 // clients
 
-        $result = $database->query('SELECT * FROM `clients`');
+        $result = $database->query('SELECT * FROM `customers`');
 
      $i = 0;
 
