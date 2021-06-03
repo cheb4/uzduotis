@@ -71,13 +71,17 @@ console.log(locations)
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
         // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
-
+        label:{text:locations[i]["id"],
+                 color: "white",
+                 fontWeight: "bold",
+                 fontSize:"15px"},
         map: map
       });
 
+      
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-                  if(locations[i]["location_status"] != '1'){
+        if(locations[i]["location_status"] != '1'){
             content = "Laisva vieta Nr " + locations[i]["id"]
         }else{
             content = "uzimta vieta Nr " + locations[i]["id"]
