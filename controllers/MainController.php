@@ -6,14 +6,19 @@ include_once ROOT . '/models/Main.php';
 class MainController
 {
 
+    public function runStuff()
+    {
+        # code...
+      $mainMapData = Main::getAllMapData();
+      $freeSpace = Main::getFreeSpace()
+   
+    }
+
 
     public function actionDisplay()
     {
-
-        $mainMapData = Main::getAllMapData();
-        $freeSpace = Main::getFreeSpace()
-        
-        require_once(ROOT . '/views/main/index.php');
+        $this->runStuff()
+       require_once(ROOT . '/views/main/index.php');
         return true;
     }
 
