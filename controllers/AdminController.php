@@ -21,7 +21,7 @@ class AdminController
 
     public function actionDisplay()
     {
-        $this->displayEverything("SELECT * FROM customers");
+        $this->displayEverything("SELECT * FROM `customers` where location_status = 1");
         return true;
     }
 
