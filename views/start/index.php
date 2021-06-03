@@ -33,7 +33,11 @@
     <script>
 // prdzia
 var locations = <?php echo $stuff; ?>;
-console.log(location)
+console.log(locations)
+
+      var red_icon =  'http://maps.google.com/mapfiles/ms/icons/red-dot.png' ;
+      var purple_icon =  'http://maps.google.com/mapfiles/ms/icons/purple-dot.png' ;
+
 // testing
 // var locations = [
 //       ['pirmas', 56.241929104940375, 23.634707957688992],
@@ -61,6 +65,8 @@ console.log(location)
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
+        icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
+
         map: map
       });
 
