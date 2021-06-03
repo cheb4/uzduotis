@@ -13,19 +13,6 @@
         <link rel="stylesheet" href="./main.css">
 
     <body>
-         <?php foreach ($stuff as $item) {
-
-        echo "<br>" . $item['name'];
-        // echo "<td class='tg-0lax'>" . $item['surname'] . " </td>";
-        // echo "<td class='tg-0lax'>" . $item['city'] . " </td>";
-        // echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
-        // echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
-      }
-      ?>
-
-
-
-
         <div class="pagrindinis">
             <div class="register">
                 <h1 class="mainDesc">Užsakyti vietą</h1>

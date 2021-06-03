@@ -9,7 +9,7 @@ include ROOT . '/db/Db.php';
 
 class Start
 {
-    public static function getAllData()
+    public static function getAllMapData()
     {
         $database = Db::getConnection();
         $itemList = array();
@@ -29,10 +29,11 @@ class Start
             $itemList[$i]['orderNum'] = $row['orderNum'];
             $itemList[$i]['phone'] = $row['phone'];
             $itemList[$i]['comment'] = $row['comment'];
+            $itemList[$i]['latitude'] = $row['latitude'];
+            $itemList[$i]['longitude'] = $row['longitude'];
+            $itemList[$i]['location_status'] = $row['location_status'];
             $i++;
         }
-
-        // return $itemList;
         return json_encode($itemList);
     }
 } 
