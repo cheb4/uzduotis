@@ -99,7 +99,10 @@ console.log(locations)
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
         // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
-        label:locations[i]["id"],
+        label:{text:locations[i]["id"],
+                 color: "#C70E20",
+                 fontWeight: "bold",
+                 fontSize:"15px"}
         map: map
       });
 
