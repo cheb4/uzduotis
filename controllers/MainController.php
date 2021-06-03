@@ -12,6 +12,7 @@ class MainController
 
         $mainMapData = Main::getAllMapData();
         
+        
         require_once(ROOT . '/views/main/index.php');
         return true;
     }
