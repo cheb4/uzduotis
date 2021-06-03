@@ -41,7 +41,7 @@
         // echo "<td class='tg-0lax'>" . $item['orderNum'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['phone'] . " </td>";
         echo "<td class='tg-0lax'>" . $item['comment'] . " </td>";
-        echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/master-'" . $item['id'] . '">   <input type='submit'>ne-patvirtinti</input> </form></td>";
+        echo "<td class='tg-0lax'> <form action=https://desolate-reaches-61237.herokuapp.com/master-'" . $item['id'] . "'> <input type='submit'>ne-patvirtinti</input> </form></td>";
         echo "</tr>";
       }
       ?>
