@@ -32,8 +32,8 @@
     </body>
     <script>
 // prdzia
-var location = <?php echo $stuff; ?>;
-// console.log(trash)
+var locations = <?php echo $stuff; ?>;
+console.log(location)
 // testing
 // var locations = [
 //       ['pirmas', 56.241929104940375, 23.634707957688992],
