@@ -86,7 +86,7 @@ console.log(locations)
 //       ['desimtas',56.241087197754, 23.635713017406772 ],
 //     ];
 
-    var map = new google.maps.Map(document.getElementById('locationMain'), {
+    var map = new google.maps.Map(document.getElementById('locationReg'), {
       zoom: 17.5,
       center: new google.maps.LatLng(56.24168095734993, 23.634612266633244),
       mapTypeId: 'satellite'
