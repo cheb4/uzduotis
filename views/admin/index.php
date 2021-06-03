@@ -27,7 +27,7 @@
 
         <table class="tg">
           <tr>
-            <th class="tg-0lax">id <a
+            <th class="tg-0lax">Vietos Nr <a
                 href="https://desolate-reaches-61237.herokuapp.com/admin/id_asc/index.php?page=1">↑</a> <a
                 href="https://desolate-reaches-61237.herokuapp.com/admin/id_desc/index.php?page=1">↓</a> </th>
             <th class="tg-0lax">vardas <a
