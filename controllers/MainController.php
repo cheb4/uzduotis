@@ -10,6 +10,8 @@ class MainController
     public function actionDisplay()
     {
 
+        $mainMapData = Main::getAllMapData();
+        
         require_once(ROOT . '/views/main/index.php');
         return true;
     }

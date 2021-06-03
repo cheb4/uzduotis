@@ -65,6 +65,7 @@ console.log(locations)
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
+        // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
 
         map: map
