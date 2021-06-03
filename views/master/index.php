@@ -2,7 +2,7 @@
 <html>
 
 <head>
- <meta charset="utf8mb4"></meta>
+ <meta charset="utf-8"></meta>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Order List</title>
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/reset.css">
@@ -15,7 +15,7 @@
     <div id="header">
       <ul class="nav">
         <li><a href="/order-form">Užsakymo forma</a></li>
-        <li>Admin panele</li>
+        <li>Administravimas</li>
       </ul>
     </div>
 
