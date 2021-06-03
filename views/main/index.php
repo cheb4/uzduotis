@@ -93,19 +93,24 @@ console.log(locations)
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
-
+    var content;
     for (i = 0; i < locations.length; i++) {  
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i]["latitude"], locations[i]["longitude"]),
         // melyna laisva
         icon :   locations[i]["location_status"] == '1' ?  red_icon  : purple_icon,
-
+        label:locations[i]["id"],
         map: map
       });
 
       google.maps.event.addListener(marker, 'click', (function(marker, i) {
         return function() {
-          infowindow.setContent(locations[i]["id"]);
+        if(locations[i]["location_status"] != '1'){
+            content = "Laisva vieta Nr " + locations[i]["id"]
+        }else{
+            content = "uzimta vieta Nr " + locations[i]["id"]
+        }
+          infowindow.setContent(content);
           infowindow.open(map, marker);
         }
       })(marker, i));
