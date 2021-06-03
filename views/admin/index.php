@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Order List</title>
+  <title>Visi dalyviai</title>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPSIXnA8K7gndiwijS1Iy8q9c3L3HLfHo&callback=initMap&libraries=&v=weekly"
           type="text/javascript"></script>
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/reset.css">
@@ -19,7 +19,7 @@
 
         <div id="header">
           <ul class="nav">
-            <li><a href="/order-form">Užsakymo forma</a></li>
+            <li><a href="/order-form">Gryžti</a></li>
             <!-- <li><a href="/product-list">Užsakymų sąrašas</a></li> -->
           </ul>
         </div>

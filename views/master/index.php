@@ -4,7 +4,7 @@
 <head>
  <meta charset="utf-8"></meta>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Order List</title>
+  <title>Administravimas</title>
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/reset.css">
   <link rel="stylesheet" href="https://desolate-reaches-61237.herokuapp.com/main.css">
 
