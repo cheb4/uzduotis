@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="./main.css">
 
     <body>
+      <?php echo $stuff; ?>;
         <div class="pagrindinis">
             <div class="register">
                 <h1 class="mainDesc">Užsakyti vietą</h1>

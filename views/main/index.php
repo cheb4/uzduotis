@@ -69,8 +69,8 @@
 var locations = <?php echo $mainMapData; ?>;
 console.log(locations)
 
-      var red_icon =  'http://maps.google.com/mapfiles/ms/icons/red-dot.png' ;
-      var purple_icon =  'http://maps.google.com/mapfiles/ms/icons/purple-dot.png' ;
+      var red_icon =  'https://maps.google.com/mapfiles/ms/icons/red-dot.png' ;
+      var purple_icon =  'https://maps.google.com/mapfiles/ms/icons/purple-dot.png' ;
 
 // testing
 // var locations = [
