@@ -11,6 +11,7 @@ class AdminController
 
     public function displayEverything($sql)
     {
+        $mapStuff = Admin::getAllMapData();
         $allResult = Admin::getAllData();
         $itemList = Admin::getPagination($sql);
         $pageNum = Admin::getPaginationNum();
