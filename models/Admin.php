@@ -13,7 +13,7 @@ class Admin
         $db = Db::getConnection();
         $itemList = array();
 
-        $result = $db->query('SELECT * FROM `customers`');
+        $result = $db->query('SELECT * FROM `customers` where location_status = 1');
         $i = 0;
         while ($row = $result->fetch()) {
             $itemList[$i]['id'] = $row['id'];

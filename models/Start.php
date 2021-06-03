@@ -23,12 +23,6 @@ class Start
 
         while ($row = $result->fetch(PDO::FETCH_BOTH)) {
             $itemList[$i]['id'] = $row['id'];
-            // $itemList[$i]['name'] = $row['name'];
-            // $itemList[$i]['surname'] = $row['surname'];
-            // $itemList[$i]['city'] = $row['city'];
-            // $itemList[$i]['orderNum'] = $row['orderNum'];
-            // $itemList[$i]['phone'] = $row['phone'];
-            // $itemList[$i]['comment'] = $row['comment'];
             $itemList[$i]['latitude'] = $row['latitude'];
             $itemList[$i]['longitude'] = $row['longitude'];
             $itemList[$i]['location_status'] = $row['location_status'];
