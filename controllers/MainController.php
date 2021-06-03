@@ -10,7 +10,7 @@ class MainController
     {
         # code...
       $mainMapData = Main::getAllMapData();
-      $freeSpace = Main::getFreeSpace()
+      $freeSpace = Main::getFreeSpace();
    
     }
 
