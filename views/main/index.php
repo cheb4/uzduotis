@@ -18,7 +18,7 @@
             <div id="header">
                 <ul class="nav">
                     <!-- navigacija -->
-                    <li><a href="/order-form">Gryžti</a></li>
+                    <li><a href="/order-form">Grįžti</a></li>
                     <li><a href="/admin/index.php?page=1">Dalyvių sąrašas</a></li>
                 </ul>
                 <!-- navigacija -->
@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-field">
                     <label>Telefonas</label>
-                    <input type="text" name="phoneNumber" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"  placeholder="+370xxxxxxxx" required/>
+                    <input type="text" name="phoneNumber" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"  placeholder="telefono Nr" required/>
                 </div>
                 <div class="form-field">
                     <label>Komentaras</label>
