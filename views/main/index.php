@@ -70,18 +70,6 @@ console.log(locations)
       var purple_icon =  'https://maps.google.com/mapfiles/ms/icons/purple-dot.png' ;
 
 // testing
-// var locations = [
-//       ['pirmas', 56.241929104940375, 23.634707957688992],
-//       ['antras', 56.241718628143777, 23.634707957688992],
-//       ['trecias', 56.2415081513472, 23.634707957688992],
-//       ['ketvirtas',56.2412976745506, 23.634707957688992 ],
-//       ['penktas', 56.241087197754, 23.634707957688992],
-//       ['sestas',56.241929104940375, 23.635713017406772 ],
-//       ['septintas',56.241718628143777, 23.635713017406772 ],
-//       ['astuntas', 56.2415081513472, 23.635713017406772],
-//       ['devintas',56.2412976745506, 23.635713017406772 ],
-//       ['desimtas',56.241087197754, 23.635713017406772 ],
-//     ];
 
     var map = new google.maps.Map(document.getElementById('locationReg'), {
       zoom: 17.5,

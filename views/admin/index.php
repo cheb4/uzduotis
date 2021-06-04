@@ -19,7 +19,7 @@
 
         <div id="header">
           <ul class="nav">
-            <li><a href="/order-form">Gryžti</a></li>
+            <li><a href="/order-form">Grįžti</a></li>
             <!-- <li><a href="/product-list">Užsakymų sąrašas</a></li> -->
           </ul>
         </div>
