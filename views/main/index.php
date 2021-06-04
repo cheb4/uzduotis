@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-field">
                     <label>Telefonas</label>
-                    <input type="text" name="phoneNumber" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"  placeholder="telefono Nr" required/>
+                    <input type="text" name="phoneNumber" pattern="^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$"  placeholder="Telefono Nr" required/>
                 </div>
                 <div class="form-field">
                     <label>Komentaras</label>
